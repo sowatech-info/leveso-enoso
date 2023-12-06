@@ -78,7 +78,12 @@ disableLanguages = [] # desable language from here
   weight = 6
 
   [[menu.main]]
+  name = "References"
+  URL = "references"
   weight = 7
+
+  [[menu.main]]
+  weight = 8
   name = "Pages"
   hasChildren = true
 
