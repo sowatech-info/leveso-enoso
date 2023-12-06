@@ -1,5 +1,5 @@
 ######################### default configuration ###############################
-baseURL = "http://examplesite.com"
+baseURL = "https://leveso-enoso.netlify.app"
 title = "Biztrox"
 theme = "biztrox-hugo"
 # post pagination
