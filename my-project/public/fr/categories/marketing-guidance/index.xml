@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marketing Guidance on Biztrox</title>
+    <link>http://examplesite.com/fr/categories/marketing-guidance/</link>
+    <description>Recent content in Marketing Guidance on Biztrox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 24 Sep 2018 11:10:46 +0600</lastBuildDate>
+    <atom:link href="http://examplesite.com/fr/categories/marketing-guidance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Money and Money</title>
+      <link>http://examplesite.com/fr/blog/money-and-money/</link>
+      <pubDate>Mon, 24 Sep 2018 11:10:46 +0600</pubDate>
+      <guid>http://examplesite.com/fr/blog/money-and-money/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+  </channel>
+</rss>
