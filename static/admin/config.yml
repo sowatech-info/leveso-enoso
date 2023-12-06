@@ -1,17 +1,17 @@
 ---
 backend:
   branch: main
-  collections:
-    - files:
-        - editor:
-            preview: true
-          fields:
-            - label: Titel
-              name: title
-              widget: string
-          file: content/english/team/_index.md
-          label: Team
-          name: team
   name: git-gateway
+collections:
+  - files:
+      - editor:
+          preview: true
+        fields:
+          - label: Titel
+            name: title
+            widget: string
+        file: content/english/team/_index.md
+        label: Team
+        name: team
 media_folder: static/images
 public_folder: static/images
