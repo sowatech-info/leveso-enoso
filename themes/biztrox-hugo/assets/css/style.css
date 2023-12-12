@@ -7,6 +7,11 @@ body {
   font-size: 15px;
 }
 
+/* grayscale*/
+.gs {
+  filter: grayscale(100%);
+}
+
 p, .paragraph {
   font-weight: 400;
   color: #666;
@@ -738,7 +743,7 @@ code{
 
 /* 2. Navigation */
 .top-header {
-  background: #303032;
+  background: #003353;
 }
 
 @media (max-width: 575px) {

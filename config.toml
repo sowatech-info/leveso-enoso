@@ -47,52 +47,75 @@ disableLanguages = [] # desable language from here
 [menu]
     
   # main menu
+
   [[menu.main]]
-  name = "About"
-  URL = "about"
+  name = "Funktionen"
+  URL = "functions"
   weight = 1
-  
+
   [[menu.main]]
   name = "Service"
   URL = "service"
   weight = 2
-  
+
   [[menu.main]]
-  name = "Blog"
-  URL = "blog"
+  name = "Konzept"
+  URL = "concept"
   weight = 3
-  
-  [[menu.main]]
-  name = "Team"
-  URL = "team"
-  weight = 4
-  
-  [[menu.main]]
-  name = "Pricing"
-  URL = "pricing"
-  weight = 5
-  
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 6
 
   [[menu.main]]
-  name = "References"
+  name = "Referenzen"
   URL = "references"
-  weight = 7
+  weight = 4
 
   [[menu.main]]
-  weight = 8
-  name = "Pages"
-  hasChildren = true
+  name = "Unternehmen"
+  URL = "company"
+  weight = 5
 
-    [[menu.main]]
-    parent = "Pages"
-    name = "Project"
-    URL = "project"
+  # [[menu.main]]
+  # name = "About"
+  # URL = "about"
+  # weight = 1
+  
+  # [[menu.main]]
+  # name = "Service"
+  # URL = "service"
+  # weight = 2
+  
+  # [[menu.main]]
+  # name = "Blog"
+  # URL = "blog"
+  # weight = 3
+  
+  # [[menu.main]]
+  # name = "Team"
+  # URL = "team"
+  # weight = 4
+  
+  # [[menu.main]]
+  # name = "Pricing"
+  # URL = "pricing"
+  # weight = 5
+  
+  # [[menu.main]]
+  # name = "Contact"
+  # URL = "contact"
+  # weight = 6
+
+  # [[menu.main]]
+  # weight = 8
+  # name = "Pages"
+  # hasChildren = true
+
+  #   [[menu.main]]
+  #   parent = "Pages"
+  #   name = "Project"
+  #   URL = "project"
+
 
   # footer menu
+
   [[menu.footer]]
   name = "Legal"
   URL = "#"
@@ -116,8 +139,8 @@ disableLanguages = [] # desable language from here
 
 ########################### default parameters #################################
 [params]
-logo = "images/logo.png"
-logo_white = "images/logo-footer.png"
+logo = "images/enoso_logo_final.svg"
+logo_white = "images/enoso_logo_darkbg.svg"
 mail = "info@companyname.com"
 mobile = "1234565523"
 # Meta data
@@ -226,7 +249,7 @@ link = "#"
   languageCode = "en-us"
   contentDir = "content/english"
   weight = 1
-  home = "Home"
+  home = "Startseite"
 
   # footer
   [Languages.en.params.footer]

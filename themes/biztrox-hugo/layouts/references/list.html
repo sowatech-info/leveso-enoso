@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ partial "pageTitle.html" . }}
+
+{{ partial "references.html" . }}
+
+{{ end }}
