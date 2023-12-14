@@ -24,6 +24,7 @@ collections:
             widget: list
             fields:
               - { label: URL, name: path, widget: image}
+              - { label: Website-URL, name: url, widget: string}
               # - { label: R1_C2, name: r1_c2, widget: image}
               # - { label: R1_C3, name: r1_c3, widget: image}
               # - { label: R2_C1, name: r2_c1, widget: image}
