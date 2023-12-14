@@ -271,5 +271,5 @@ collections:
         name: new-hugo-post
     label: Seitenübersicht
     name: pages
-media_folder: static/images
-public_folder: static/images
+media_folder: /images
+public_folder: /images
