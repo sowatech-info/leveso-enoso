@@ -19,9 +19,19 @@ collections:
           - label: Description
             name: description
             widget: string
-          - label: Row1_Col1_Image
-            name: r1_c1_image
-            widget: image
+          - label: Images
+            name: images
+            widget: list
+            fields:
+              - { label: R1_C1, name: r1_c1, widget: image}
+              # - { label: R1_C2, name: r1_c2, widget: image}
+              # - { label: R1_C3, name: r1_c3, widget: image}
+              # - { label: R2_C1, name: r2_c1, widget: image}
+              # - { label: R2_C2, name: r2_c2, widget: image}
+              # - { label: R2_C3, name: r2_c3, widget: image}
+              # - { label: R3_C1, name: r3_c1, widget: image}
+              # - { label: R3_C2, name: r3_c2, widget: image}
+              # - { label: R3_C3, name: r3_c3, widget: image}
         file: content/english/references/_index.md
         label: Referenzen
         name: references

@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Biztrox</title>
-    <link>http://examplesite.com/tags/</link>
+    <link>https://leveso-enoso.netlify.app/tags/</link>
     <description>Recent content in Tags on Biztrox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Sep 2018 11:11:24 +0600</lastBuildDate>
-    <atom:link href="http://examplesite.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://leveso-enoso.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Consultancy</title>
-      <link>http://examplesite.com/tags/consultancy/</link>
+      <link>https://leveso-enoso.netlify.app/tags/consultancy/</link>
       <pubDate>Mon, 24 Sep 2018 11:11:24 +0600</pubDate>
-      <guid>http://examplesite.com/tags/consultancy/</guid>
+      <guid>https://leveso-enoso.netlify.app/tags/consultancy/</guid>
       <description></description>
     </item>
     <item>
       <title>Finance</title>
-      <link>http://examplesite.com/tags/finance/</link>
+      <link>https://leveso-enoso.netlify.app/tags/finance/</link>
       <pubDate>Mon, 24 Sep 2018 11:11:24 +0600</pubDate>
-      <guid>http://examplesite.com/tags/finance/</guid>
+      <guid>https://leveso-enoso.netlify.app/tags/finance/</guid>
       <description></description>
     </item>
     <item>
       <title>Marketing</title>
-      <link>http://examplesite.com/tags/marketing/</link>
+      <link>https://leveso-enoso.netlify.app/tags/marketing/</link>
       <pubDate>Mon, 24 Sep 2018 11:11:24 +0600</pubDate>
-      <guid>http://examplesite.com/tags/marketing/</guid>
+      <guid>https://leveso-enoso.netlify.app/tags/marketing/</guid>
       <description></description>
     </item>
     <item>
       <title>Business</title>
-      <link>http://examplesite.com/tags/business/</link>
+      <link>https://leveso-enoso.netlify.app/tags/business/</link>
       <pubDate>Mon, 24 Sep 2018 11:10:46 +0600</pubDate>
-      <guid>http://examplesite.com/tags/business/</guid>
+      <guid>https://leveso-enoso.netlify.app/tags/business/</guid>
       <description></description>
     </item>
     <item>
       <title>Market Analysis</title>
-      <link>http://examplesite.com/tags/market-analysis/</link>
+      <link>https://leveso-enoso.netlify.app/tags/market-analysis/</link>
       <pubDate>Mon, 24 Sep 2018 11:10:07 +0600</pubDate>
-      <guid>http://examplesite.com/tags/market-analysis/</guid>
+      <guid>https://leveso-enoso.netlify.app/tags/market-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Revenue</title>
-      <link>http://examplesite.com/tags/revenue/</link>
+      <link>https://leveso-enoso.netlify.app/tags/revenue/</link>
       <pubDate>Mon, 24 Sep 2018 11:10:07 +0600</pubDate>
-      <guid>http://examplesite.com/tags/revenue/</guid>
+      <guid>https://leveso-enoso.netlify.app/tags/revenue/</guid>
       <description></description>
     </item>
     <item>
       <title>Advice</title>
-      <link>http://examplesite.com/tags/advice/</link>
+      <link>https://leveso-enoso.netlify.app/tags/advice/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      <guid>http://examplesite.com/tags/advice/</guid>
+      <guid>https://leveso-enoso.netlify.app/tags/advice/</guid>
       <description></description>
     </item>
     <item>
       <title>Fitness</title>
-      <link>http://examplesite.com/tags/fitness/</link>
+      <link>https://leveso-enoso.netlify.app/tags/fitness/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      <guid>http://examplesite.com/tags/fitness/</guid>
+      <guid>https://leveso-enoso.netlify.app/tags/fitness/</guid>
       <description></description>
     </item>
   </channel>

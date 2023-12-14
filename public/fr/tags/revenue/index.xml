@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Revenue on Biztrox</title>
-    <link>http://examplesite.com/fr/tags/revenue/</link>
+    <link>https://leveso-enoso.netlify.app/fr/tags/revenue/</link>
     <description>Recent content in Revenue on Biztrox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Mon, 24 Sep 2018 11:10:07 +0600</lastBuildDate>
-    <atom:link href="http://examplesite.com/fr/tags/revenue/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://leveso-enoso.netlify.app/fr/tags/revenue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Finance My Business</title>
-      <link>http://examplesite.com/fr/blog/finance-my-business/</link>
+      <link>https://leveso-enoso.netlify.app/fr/blog/finance-my-business/</link>
       <pubDate>Mon, 24 Sep 2018 11:10:07 +0600</pubDate>
-      <guid>http://examplesite.com/fr/blog/finance-my-business/</guid>
+      <guid>https://leveso-enoso.netlify.app/fr/blog/finance-my-business/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     <item>
       <title>New Hugo Post</title>
-      <link>http://examplesite.com/fr/blog/new-hugo-post/</link>
+      <link>https://leveso-enoso.netlify.app/fr/blog/new-hugo-post/</link>
       <pubDate>Sun, 23 Sep 2018 11:35:34 +0600</pubDate>
-      <guid>http://examplesite.com/fr/blog/new-hugo-post/</guid>
+      <guid>https://leveso-enoso.netlify.app/fr/blog/new-hugo-post/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
   </channel>

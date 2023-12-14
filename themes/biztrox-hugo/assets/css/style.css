@@ -570,12 +570,16 @@ button {
   background-color: #f5f5f5;
 }
 
+.ref-img {
+  width: 150px;
+}
+
 .bg-primary {
   background-color: #e84444 !important;
 }
 
 .bg-secondary {
-  background-color: #303032 !important;
+  background-color: #003353 !important;
 }
 
 .text-primary {
