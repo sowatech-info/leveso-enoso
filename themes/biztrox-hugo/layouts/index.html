@@ -3,7 +3,7 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
 {{ if $data.homepage.slider.enable }}
-{{ partial "index.html" . }}
+{{ partial "hero-slider.html" . }}
 {{ end }}
 
 {{ if $data.homepage.service.enable }}
