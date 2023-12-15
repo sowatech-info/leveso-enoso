@@ -579,7 +579,7 @@ button {
 }
 
 .bg-secondary {
-  background-color: #003353 !important;
+  background-color: #252d39 !important;
 }
 
 .text-primary {
@@ -747,7 +747,7 @@ code{
 
 /* 2. Navigation */
 .top-header {
-  background: #003353;
+  background: #252d39;
 }
 
 @media (max-width: 575px) {
