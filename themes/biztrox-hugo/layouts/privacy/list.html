@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ partial "pageTitle.html" . }}
+
+{{ "<!-- Privacy Policy -->" | safeHTML }}
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">{{ "Datenschutzerklärung" | markdownify }}</h2>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+
+{{ "<!-- /Privacy Policy -->" | safeHTML }}
+
+{{ end }}

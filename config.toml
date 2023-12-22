@@ -117,39 +117,44 @@ disableLanguages = [] # desable language from here
   # footer menu
 
   [[menu.footer]]
-  name = "Legal"
+  name = "AGB"
   URL = "#"
   weight = 1
   
   [[menu.footer]]
-  name = "Sitemap"
-  URL = "#"
+  name = "Impressum"
+  URL = "imprint"
   weight = 2
   
   [[menu.footer]]
-  name = "Privacy Policy"
-  URL = "#"
+  name = "Datenschutz"
+  URL = "privacy"
   weight = 3
-  
-  [[menu.footer]]
-  name = "Terms & Conditions"
-  URL = "#"
-  weight = 4
 
 
 ########################### default parameters #################################
 [params]
 logo = "images/enoso_logo_final.svg"
 logo_white = "images/enoso_logo_darkbg.svg"
-mail = "info@companyname.com"
-mobile = "1234565523"
+mail = "info@enoso.de"
+mobile = "+49 2664 99007-0"
 # Meta data
-description = "Airspace Hugo theme"
-author = "themefisher"
+
+author = "enoso"
 # contact form
 contact_form_action = "#"
 # Google Analitycs
-google_analitycs_id = "Your ID"
+google_analitycs_id = ""
+
+addressKoblenz = "Schloßstraße 4, 56068 Koblenz"
+addressRennerod = "Am Grauen Stein 30, 56477 Rennerod"
+officeKoblenz = "Koblenz"
+officeRennerod = "Rennerod"
+description = "Von unseren Standorten in Koblenz und Rennerod bietet enoso individuelle Softwareentwicklung und Datenbankentwicklung von Web-, Mobil- und Desktop-Applikationen."
+enableServiceLinkOnListPage = false
+quick_contact = false
+search = false
+top_header = true
 
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
@@ -170,32 +175,29 @@ preloader = "images/preloader.gif"
 icon = "ti-mobile"
 
   [[params.contacts.contact]]
-  contact_item = "+88 0123 456 789"
-
-  [[params.contacts.contact]]
-  contact_item = "+88 987 654 3210"
+  contact_item = "+49 2664 99007-0"
 
 [[params.contacts]]
 icon = "ti-email"
 
   [[params.contacts.contact]]
-  contact_item = "info@biztrox.com"
-
-  [[params.contacts.contact]]
-  contact_item = "biztrox@email.com"
+  contact_item = "info@enoso.de"
   
 [[params.contacts]]
 icon = "ti-map-alt"
 
   [[params.contacts.contact]]
-  contact_item = "24/B Garden Street. <br> Northambia, Weals, UK"
+  contact_item = "Schloßstraße 4 <br> 56068 Koblenz"
+
+  [[params.contacts.contact]]
+  contact_item = "Am Grauen Stein 30 <br> 56477 Rennerod"
 
 ############################ google map #####################################
 [params.gmap]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+map_latitude = "50.337076"
+map_longitude = "7.589554"
 map_marker = "images/marker.png"
 
 ############################ client logo slider #############################
@@ -260,7 +262,7 @@ link = "#"
   subscribe_content = "Lorem ipsum dolor sit amet, consect etur adipisicing. elit sed do eiusmod."
 
   # copyright
-  copyright = "Copyright &copy; 2019 a hugo theme by [themefisher.com](https://themefisher.com)"
+  copyright = "Copyright &copy; enoso GmbH 2022"
 
 
 
