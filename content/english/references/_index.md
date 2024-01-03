@@ -6,4 +6,5 @@ description: This is meta description
 images:
   - path: /images/enoso_logo_darkbg.svg
     url: https://www.enoso.de
+  - path: /images/logo.png
 ---
