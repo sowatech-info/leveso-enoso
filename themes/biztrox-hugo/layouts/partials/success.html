@@ -1,0 +1,22 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.homepage.success }}
+{{ "<!-- success -->" | safeHTML }}
+<div class="container">
+    <div class="row my-5">
+        <div class="col-lg-12">
+            <h5 class="section-title-sm">{{ .subtitle | markdownify }}</h5>
+            <h2 class="section-title section-title-border-half">{{ .title | markdownify }}</h2>
+        </div>
+        <div class="col-md-4">
+            <img src="/images/references/aachen.png" width="100%">
+        </div>
+        <div class="col-md-4">
+            <img src="/images/references/erfurt.png" width="100%">
+        </div>
+        <div class="col-md-4">
+            <img src="/images/references/ifa.png" width="100%">
+        </div>
+    </div>
+</div>
+{{ "<!-- success -->" | safeHTML }}
+{{ end }}

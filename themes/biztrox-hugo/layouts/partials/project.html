@@ -1,0 +1,15 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.homepage.project }}
+{{ "<!-- project -->" | safeHTML }}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 my-5">
+            <h5 class="section-title-sm">{{ .subtitle | markdownify }}</h5>
+            <h2 class="section-title section-title-border-half">{{ .title | markdownify }}</h2>
+            <p>{{ .content | markdownify }}</p>
+        </div>
+        <img src="{{ .image | relURL }}" class="float-left" width="100%">
+    </div>
+</div>
+{{ "<!-- project -->" | safeHTML }}
+{{ end }}

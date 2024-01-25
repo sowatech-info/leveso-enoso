@@ -1,5 +1,5 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
-{{ with $data.about.philosophy }}
+{{ with $data.homepage.philosophy }}
 {{ "<!-- philosophy -->" | safeHTML }}
 <section class="section">
 	<div class="container">

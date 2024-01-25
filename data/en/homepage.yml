@@ -112,11 +112,47 @@ skill:
       
     - title : Promotion
       progress : 90%
-      
-########################################## project ####################################
+
+
+########################################### success ###################################
+success:
+  enable : true
+  subtitle : Our Customers
+  title : Success-Stories
+  content : Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex ea commodo consequat.
+  image :
+
+########################################### features ###################################
+features:
+  enable : true
+  subtitle : Our Features
+  title : LEVESO Features
+  content : Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex ea commodo consequat.
+  image : images/functions.png
+
+########################################### benefits ###################################
+benefits:
+  enable : true
+  subtitle : Our Benefits
+  title : Customer Benefits
+  content : Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex ea commodo consequat.
+  image :
+
+########################################### project ###################################
 project:
   enable : true
-  # project item comes from "content/project" folder
+  subtitle : Our Projects
+  title : Project Management
+  content : Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex ea commodo consequat.
+  image : images/project.png
+
+###################################### philosophy ####################################
+philosophy:
+  enable : true
+  subtitle : Know About
+  title : Our Philosophy
+  content : Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex commodo consequat. duis aute irure dolor in reprehenderivoluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat noproident sunt culpa qui officia deserunt mollit anim id est laborum.<br> Sed perspiciatis unde omnisiste natus error sit voluptatem accusantium.doloremque ladantium totam rem aperieaque ipsa quae ab illo inventore.veritatis. et quasi architecto beatae vitae dicta sunt explicabo.
+  image : images/about/philosophy.jpg
 
 ########################################### Mission ###################################
 mission:
@@ -126,13 +162,31 @@ mission:
   content : Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex ea commodo consequat.
   image : images/chart.png
   accordion:
-    - title : Our Company Mission
+    - title : Modul 1
       description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
       
-    - title : Our Company Vision
+    - title : Modul 2
       description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
       
-    - title : Our Company Goal
+    - title : Modul 3
+      description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
+      
+    - title : Modul 4
+      description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
+      
+    - title : Modul 5
+      description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
+      
+    - title : Modul 6
+      description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
+      
+    - title : Modul 7
+      description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
+      
+    - title : Modul 8
+      description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
+      
+    - title : Modul 9
       description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
 
 ##################################### Promo video ####################################

@@ -1,0 +1,37 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.homepage.benefits }}
+{{ "<!-- benefits -->" | safeHTML }}
+<div class="container">
+    <div class="row my-5">
+        <div class="col-lg-12">
+            <h5 class="section-title-sm">{{ .subtitle | markdownify }}</h5>
+            <h2 class="section-title section-title-border-half">{{ .title | markdownify }}</h2>
+        </div>
+        <div class="col-sm-4 text-center">
+            <img src="/images/lock.png" height="60px">
+            <div class="pt-3">
+                <h4>Verschlüsselt</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil repellendus voluptas alias,
+                    voluptate quibusdam doloremque.</p>
+            </div>
+        </div>
+        <div class="col-sm-4 text-center">
+            <img src="/images/certified.png" height="60px">
+            <div class="pt-3">
+                <h4>ISO zertifizierte Server</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil repellendus voluptas alias,
+                    voluptate quibusdam doloremque.</p>
+            </div>
+        </div>
+        <div class="col-sm-4 text-center">
+            <img src="/images/calender.png" height="60px">
+            <div class="pt-3">
+                <h4>Datensicherung</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil repellendus voluptas alias,
+                    voluptate quibusdam doloremque.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{{ "<!-- benefits -->" | safeHTML }}
+{{ end }}

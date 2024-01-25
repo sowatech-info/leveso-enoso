@@ -1,5 +1,5 @@
 ######################### default configuration ###############################
-baseURL = "https://leveso.enoso.de"
+baseURL = "https://leveso.enoso.de/"
 title = "Leveso"
 theme = "biztrox-hugo"
 # post pagination
@@ -49,59 +49,24 @@ disableLanguages = [] # desable language from here
   # main menu
 
   [[menu.main]]
-  name = "Funktionen"
-  URL = "functions"
+  name = "Start"
+  URL = "home"
   weight = 1
 
   [[menu.main]]
-  name = "Service"
+  name = "Funktionen"
   URL = "service"
   weight = 2
 
   [[menu.main]]
-  name = "Konzept"
-  URL = "concept"
+  name = "Über uns"
+  URL = "about"
   weight = 3
 
   [[menu.main]]
-  name = "Referenzen"
-  URL = "references"
+  name = "Kontakt"
+  URL = "contact"
   weight = 4
-
-  [[menu.main]]
-  name = "Unternehmen"
-  URL = "company"
-  weight = 5
-
-  # [[menu.main]]
-  # name = "About"
-  # URL = "about"
-  # weight = 1
-  
-  # [[menu.main]]
-  # name = "Service"
-  # URL = "service"
-  # weight = 2
-  
-  # [[menu.main]]
-  # name = "Blog"
-  # URL = "blog"
-  # weight = 3
-  
-  # [[menu.main]]
-  # name = "Team"
-  # URL = "team"
-  # weight = 4
-  
-  # [[menu.main]]
-  # name = "Pricing"
-  # URL = "pricing"
-  # weight = 5
-  
-  # [[menu.main]]
-  # name = "Contact"
-  # URL = "contact"
-  # weight = 6
 
   # [[menu.main]]
   # weight = 8
@@ -251,7 +216,7 @@ link = "#"
   languageCode = "en-us"
   contentDir = "content/english"
   weight = 1
-  home = "Startseite"
+  home = "Start"
 
   # footer
   [Languages.en.params.footer]
