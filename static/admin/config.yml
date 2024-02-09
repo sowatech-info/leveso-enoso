@@ -8,17 +8,17 @@ collections:
           preview: true
         fields:
           - label: Images
-            name: images
+            name: benefit_images
             widget: list
             fields:
               - { label: URL, name: path, widget: image}
           - label: Titles
-            name: titles
+            name: benefit_titles
             widget: list
             fields:
               - { label: Title, name: title, widget: string}
           - label: Descriptions
-            name: descriptions
+            name: benefit_descriptions
             widget: list
             fields:
               - { label: Description, name: description, widget: string}
