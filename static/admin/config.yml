@@ -22,9 +22,9 @@ collections:
             widget: list
             fields:
               - { label: Description, name: description, widget: string}
-        file: content/english/home/_index.md
-        label: Start
-        name: home
+        file: content/english/benefits/_index.md
+        label: Benefits
+        name: benefits
       - editor:
           preview: true
         fields:
