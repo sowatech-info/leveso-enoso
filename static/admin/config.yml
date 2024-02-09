@@ -23,8 +23,8 @@ collections:
             fields:
               - { label: Description, name: description, widget: string}
         file: content/english/home/_index.md
-        label: Startseite
-        name: homepage
+        label: Start
+        name: home
       - editor:
           preview: true
         fields:

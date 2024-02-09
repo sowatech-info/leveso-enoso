@@ -10,13 +10,13 @@ type: legal_notice
 ##### Betreiber der Website
 enoso GmbH\
 Schloßstraße 4\
-56068 Koblenz
-Registergericht: Amtsgericht Koblenz, Registernummer: HRB 28809
-Umsatzsteuer-ID:  DE 351452112
+56068 Koblenz\
+Registergericht: Amtsgericht Koblenz, Registernummer: HRB 28809\
+Umsatzsteuer-ID:  DE 351452112\
 Verantwortlich für den Webauftritt: Peter Kaiser
 ##### Vertretungsberechtigte Geschäftsführer
 Peter Kaiser, Boris Schaffrin
 ##### Kontakt
-Tel: +49 (2664) 99007-0
+Tel: +49 (2664) 99007-0\
 E-Mail: info@enoso.de\
 URL: www.enoso.de
