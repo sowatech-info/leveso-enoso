@@ -7,9 +7,12 @@ body {
   font-size: 15px;
 }
 
-/* grayscale*/
-.gs {
+.grayscale {
   filter: grayscale(100%);
+}
+
+.benefits-images {
+  height: 60px;
 }
 
 p, .paragraph {

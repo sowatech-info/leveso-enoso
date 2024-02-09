@@ -7,24 +7,24 @@ collections:
       - editor:
           preview: true
         fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
           - label: Images
             name: images
             widget: list
             fields:
               - { label: URL, name: path, widget: image}
-              - { label: Website-URL, name: url, widget: string}
-        file: content/english/references/_index.md
-        label: Referenzen
-        name: references
+          - label: Titles
+            name: titles
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string}
+          - label: Descriptions
+            name: descriptions
+            widget: list
+            fields:
+              - { label: Description, name: description, widget: string}
+        file: content/english/home/_index.md
+        label: Startseite
+        name: homepage
       - editor:
           preview: true
         fields:
