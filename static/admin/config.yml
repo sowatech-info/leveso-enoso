@@ -7,17 +7,17 @@ collections:
       - editor:
           preview: true
         fields:
-          - label: Images
+          - label: Benefit_Images
             name: benefit_images
             widget: list
             fields:
               - { label: URL, name: path, widget: image}
-          - label: Titles
+          - label: Benefit_Titles
             name: benefit_titles
             widget: list
             fields:
               - { label: Title, name: title, widget: string}
-          - label: Descriptions
+          - label: Benefit_Descriptions
             name: benefit_descriptions
             widget: list
             fields:
