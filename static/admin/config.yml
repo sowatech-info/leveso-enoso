@@ -92,6 +92,16 @@ collections:
         file: content/english/imprint/_index.md
         label: Impressum
         name: imprint
+      - editor:
+          preview: true
+        fields:
+          - label: Titel
+            name: title
+            fields:
+              - { label: Project Title, name: project_title, widget: string }       
+        file: data/homepage.yml
+        label: Test
+        name: test
     label: Seitenübersicht
     name: pages
 media_folder: static/images
