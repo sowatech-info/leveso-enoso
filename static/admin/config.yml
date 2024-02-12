@@ -12,7 +12,7 @@ collections:
             widget: list
             fields:
               - { label: URL, name: path, widget: image}
-        file: content/english/benefits/_index.md
+        file: content/english/home/_index.md
         label: Benefits
         name: benefits
       - editor:
