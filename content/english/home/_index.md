@@ -31,4 +31,6 @@ feature_preamble: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debit
       doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
       aut?
 feature_image:
+mission_section_title: Company Mission
+mission_section_subtitle: Our Mission
 ---

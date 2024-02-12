@@ -7,6 +7,37 @@ collections:
       - editor:
           preview: true
         fields:
+          - label: Mission Section Title
+            name: mission_section_title
+            widget: string
+          - label: Mission Section Subtitle
+            name: mission_section_subtitle
+            widget: string
+          - label: Mission Section Preamble
+            name: mission_section_preamble
+            widget: string
+          - label: Modul Titles
+            name: modul_titles
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string}
+          - label: Modul Descriptions
+            name: modul_descriptions
+            widget: list
+            fields:
+              - { label: Description, name: text, widget: string}
+        file: content/english/home/_index.md
+        label: Mission
+        name: mission
+      - editor:
+          preview: true
+        fields:
+          - label: Benefit Section Title
+            name: benefit_section_title
+            widget: string
+          - label: Benefit Section Subtitle
+            name: benefit_section_subtitle
+            widget: string
           - label: Benefit Images
             name: benefit_images
             widget: list
