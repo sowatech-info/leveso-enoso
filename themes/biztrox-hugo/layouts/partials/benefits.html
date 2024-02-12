@@ -1,15 +1,12 @@
-
 <div class="container">
     <div class="row my-5">
         <div class="col-lg-12">
-            <h5 class="section-title-sm">{{ .Params.benefit_subtitle }}</h5>
-            <h2 class="section-title section-title-border-half">{{ .Params.benefit_title }}</h2>
+            <h5 class="section-title-sm">subtitle</h5>
+            <h2 class="section-title section-title-border-half">{{ .Params.title }}</h2>
         </div>
-        {{ range .Params.benefit_images }}
+        {{ range .Params.images }}
         <div class="col-sm-4 text-center">
-            <div>
-                <img class="benefits-images" src="{{ .path }}" alt="{{ .alt }}">
-            </div>
+            <img class="benefits-images" src="{{ .path }}" alt="{{ .alt }}">
         </div>
         {{ end }}
     </div>
