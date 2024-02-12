@@ -1,8 +1,9 @@
 ---
-title: Home
-date: 2018-07-12T18:19:33+06:00
 bg_image: images/background/page-title.jpg
 description: This is meta description
+
+benefit_section_title: Leveso Benefits
+benefit_section_subtitle: Your benefits
 benefit_images:
   - path: /images/lock.png
   - path: /images/certified.png
