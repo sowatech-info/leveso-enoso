@@ -7,21 +7,27 @@ collections:
       - editor:
           preview: true
         fields:
-          - label: Benefit Images
+          - fields:
+              - label: URL
+                name: path
+                widget: image
+            label: Benefit Images
             name: benefit_images
             widget: list
-            fields:
-              - { label: URL, name: path, widget: image}
-          - label: Benefit Titles
+          - fields:
+              - label: Title
+                name: title
+                widget: string
+            label: Benefit Titles
             name: benefit_titles
             widget: list
-            fields:
-              - { label: Title, name: title, widget: string}
-          - label: Benefit Descriptions
+          - fields:
+              - label: Description
+                name: text
+                widget: string
+            label: Benefit Descriptions
             name: benefit_descriptions
             widget: list
-            fields:
-              - { label: Description, name: text, widget: string}
         file: content/english/home/_index.md
         label: Benefits
         name: benefits
@@ -57,7 +63,7 @@ collections:
             widget: string
           - label: Seitentext
             name: body
-            widget: markdown          
+            widget: markdown
         file: content/english/imprint/_index.md
         label: Impressum
         name: imprint
