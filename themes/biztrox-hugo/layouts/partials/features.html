@@ -1,15 +1,11 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
-{{ with $data.homepage.features }}
-{{ "<!-- features -->" | safeHTML }}
 <div class="container">
     <div class="row">
         <div class="col-lg-12 mt-5">
-            <h5 class="section-title-sm">{{ .subtitle | markdownify }}</h5>
-            <h2 class="section-title section-title-border-half">{{ .title | markdownify }}</h2>
-            <p>{{ .content | markdownify }}</p>
+            <h5 class="section-title-sm">{{ .Params.feature_section_subtitle }}</h5>
+            <h2 class="section-title section-title-border-half">{{ .Params.feature_section_title }}</h2>
+            <p>{{ .Params.feature_description }}</p>
         </div>
-        <img src="{{ .image | relURL }}" class="float-left" width="100%">
+        <img src="{{ .Params.feature_image }}" class="float-left" width="100%">
     </div>
 </div>
-{{ "<!-- features -->" | safeHTML }}
-{{ end }}

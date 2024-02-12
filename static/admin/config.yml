@@ -28,6 +28,24 @@ collections:
       - editor:
           preview: true
         fields:
+          - label: Feature Section Title
+            name: feature_section_title
+            widget: string
+          - label: Feature Section Subtitle
+            name: feature_section_subtitle
+            widget: string
+          - label: Feature Preamble
+            name: feature_preamble
+            widget: string
+          - label: Feature Image
+            name: feature_image
+            widget: image
+        file: content/english/home/_index.md
+        label: Features
+        name: features
+      - editor:
+          preview: true
+        fields:
           - label: Titel
             name: title
             widget: string
