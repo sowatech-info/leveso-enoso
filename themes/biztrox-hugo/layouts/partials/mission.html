@@ -9,7 +9,7 @@
       <p>{{ .Params.mission_section_preamble }}</p>
       <div id="accordion" class="mb-md-50">
         <div class="row px-3">
-          {{ range $index :=.Params.modul_titles }}
+          {{ range $index :=.Params.module_titles }}
           <div class="col-lg-4 col-md-6">
             <div class="card border-0 mb-4">
               <div class="card-header bg-gray border p-0">
@@ -18,7 +18,7 @@
                   <i class="{{if eq $index 0}}ti-minus{{else}}ti-plus{{end}} text-primary mr-2"></i> {{ .title }}
                 </a>
               </div>
-              {{ range .Params.modul_descriptions }}
+              {{ range .Params.module_descriptions }}
               <div id="collapse{{ add $index 1 }}" class="collapse {{if eq $index 0}}show{{ end }}">
                 <div class="card-body font-secondary text-color pl-0 pb-0">
                   {{ .text }}

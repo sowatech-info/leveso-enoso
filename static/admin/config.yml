@@ -16,17 +16,17 @@ collections:
           - label: Mission Section Preamble
             name: mission_section_preamble
             widget: string
-          - label: Modul Titles
-            name: modul_titles
+          - label: Module Titles
+            name: module_titles
             widget: list
             fields:
               - { label: Title, name: title, widget: string}
-          - label: Modul Descriptions
-            name: modul_descriptions
+          - label: Module Descriptions
+            name: module_descriptions
             widget: list
             fields:
               - { label: Description, name: text, widget: string}
-        file: content/english/home/_index.md
+        file: content/english/home/mission.md
         label: Mission
         name: mission
       - editor:
@@ -53,7 +53,7 @@ collections:
             widget: list
             fields:
               - { label: Description, name: text, widget: string}
-        file: content/english/home/_index.md
+        file: content/english/home/benefits.md
         label: Benefits
         name: benefits
       - editor:
@@ -71,7 +71,7 @@ collections:
           - label: Feature Image
             name: feature_image
             widget: image
-        file: content/english/home/_index.md
+        file: content/english/home/features.md
         label: Features
         name: features
       - editor:
