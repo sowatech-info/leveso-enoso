@@ -7,11 +7,21 @@ collections:
       - editor:
           preview: true
         fields:
-          - label: Images
-            name: images
+          - label: Benefit Images
+            name: benefit_images
             widget: list
             fields:
               - { label: URL, name: path, widget: image}
+          - label: Benefit Titles
+            name: benefit_titles
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string}
+          - label: Benefit Descriptions
+            name: benefit_descriptions
+            widget: list
+            fields:
+              - { label: Description, name: text, widget: string}
         file: content/english/home/_index.md
         label: Benefits
         name: benefits

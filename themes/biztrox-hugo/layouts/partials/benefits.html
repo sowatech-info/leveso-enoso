@@ -4,9 +4,19 @@
             <h5 class="section-title-sm">subtitle</h5>
             <h2 class="section-title section-title-border-half">{{ .Params.description }}</h2>
         </div>
-        {{ range .Params.images }}
+        {{ range .Params.benefit_images }}
         <div class="col-sm-4 text-center">
             <img class="benefits-images" src="{{ .path }}" alt="{{ .alt }}">
+        </div>
+        {{ end }}
+        {{ range .Params.benefit_titles }}
+        <div class="col-sm-4 text-center">
+            <h3> {{ .title }} </h3>
+        </div>
+        {{ end }}
+        {{ range .Params.benefit_descriptions }}
+        <div class="col-sm-4 text-center">
+            <p> {{ .text }} </p>
         </div>
         {{ end }}
     </div>
