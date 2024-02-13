@@ -98,7 +98,7 @@ collections:
           - label: Title
             name: title
             widget: string
-        file: data/test.yml
+        file: data/en/test.yml
         label: Project
         name: project
     label: Seitenübersicht
