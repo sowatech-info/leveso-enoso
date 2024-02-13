@@ -95,12 +95,10 @@ collections:
       - editor:
           preview: true
         fields:
-          - label: Project
-            name: project
-            widget: list
-            fields:
-              - { label: Title, name: title, widget: string}
-        file: data/homepage.yml
+          - label: Title
+            name: title
+            widget: string
+        file: data/test.yml
         label: Project
         name: project
     label: Seitenübersicht

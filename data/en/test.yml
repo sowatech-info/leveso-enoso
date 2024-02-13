@@ -1,0 +1,6 @@
+project:
+  enable : true
+  subtitle : Our Projects
+  title : Project Management
+  content : Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex ea commodo consequat.
+  image : images/project.png
