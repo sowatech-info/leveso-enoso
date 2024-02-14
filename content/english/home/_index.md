@@ -22,7 +22,6 @@ benefit_descriptions:
       delectus magni modi molestias repudiandae ratione consectetur, placeat
       doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
       aut?
-
 feature_section_title: _index.md Datei in Home
 feature_section_subtitle: Our Features
 feature_preamble: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
@@ -30,4 +29,6 @@ feature_preamble: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debit
       doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
       aut?
 feature_image:
+mission_section_title: _index.md Datei in Mission
+mission_section_subtitle: Our Mission
 ---
