@@ -6,6 +6,19 @@ collections:
   - files:
       - editor:
           preview: true
+        fields:
+          - editor:
+              preview: true
+            fields:
+              - label: Benefit Section Title
+                name: benefit_section_title
+                widget: string
+          - editor:
+              preview: true
+            fields:
+              - label: Feature Section Title
+                name: feature_section_title
+                widget: string
         file: content/english/home/_index.md
         label: Test
         name: test
