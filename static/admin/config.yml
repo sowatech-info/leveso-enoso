@@ -3,16 +3,14 @@ backend:
   branch: main
   name: git-gateway
 collections:
-  - editor:
-      preview: true
-    - name: test
-      label: Test Data
-      files:
-        - label: Test Data
-          name: test_data
-          file: data/test.yml
-          fields:
-            - { label: Subtitle, name: subtitle, widget: string }
+  - name: test
+    label: Test Data
+    files:
+      - label: Test Data
+        name: test_data
+        file: data/test.yml
+        fields:
+          - { label: Subtitle, name: subtitle, widget: string }
     label: Seitenübersicht
     name: pages
 media_folder: static/images
