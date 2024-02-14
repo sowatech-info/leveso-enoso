@@ -13,15 +13,21 @@ collections:
               - label: Benefit Section Title
                 name: benefit_section_title
                 widget: string
+            file: content/english/home/_index.md
+            label: Test1
+            name: test1
           - editor:
               preview: true
             fields:
               - label: Feature Section Title
                 name: feature_section_title
                 widget: string
+            file: content/english/home/_index.md
+            label: Test2
+            name: test2
         file: content/english/home/_index.md
-        label: Test
-        name: test
+        label: Test0
+        name: test0
       - editor:
           preview: true
         fields:
