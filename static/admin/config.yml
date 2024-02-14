@@ -3,105 +3,16 @@ backend:
   branch: main
   name: git-gateway
 collections:
-  - files:
-      - editor:
-          preview: true
-        fields:
-          - label: Mission Section Title
-            name: mission_section_title
-            widget: string
-          - label: Mission Section Subtitle
-            name: mission_section_subtitle
-            widget: string
-          - label: Mission Section Preamble
-            name: mission_section_preamble
-            widget: string
-          - label: Module Titles
-            name: module_titles
-            widget: list
-            fields:
-              - { label: Title, name: title, widget: string}
-          - label: Module Descriptions
-            name: module_descriptions
-            widget: list
-            fields:
-              - { label: Description, name: text, widget: string}
-        file: content/english/home/mission.md
-        label: Mission
-        name: mission
-      - editor:
-          preview: true
-        fields:
-          - label: Benefit Section Title
-            name: benefit_section_title
-            widget: string
-          - label: Benefit Section Subtitle
-            name: benefit_section_subtitle
-            widget: string
-          - label: Benefit Images
-            name: benefit_images
-            widget: list
-            fields:
-              - { label: URL, name: path, widget: image}
-          - label: Benefit Titles
-            name: benefit_titles
-            widget: list
-            fields:
-              - { label: Title, name: title, widget: string}
-          - label: Benefit Descriptions
-            name: benefit_descriptions
-            widget: list
-            fields:
-              - { label: Description, name: text, widget: string}
-        file: content/english/home/benefits.md
-        label: Benefits
-        name: benefits
-      - editor:
-          preview: true
-        fields:
-          - label: Feature Section Title
-            name: feature_section_title
-            widget: string
-          - label: Feature Section Subtitle
-            name: feature_section_subtitle
-            widget: string
-          - label: Feature Preamble
-            name: feature_preamble
-            widget: string
-          - label: Feature Image
-            name: feature_image
-            widget: image
-        file: content/english/home/features.md
-        label: Features
-        name: features
-      - editor:
-          preview: true
-        fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
-          - label: Seitentext
-            name: body
-            widget: markdown          
-        file: content/english/imprint/_index.md
-        label: Impressum
-        name: imprint
-      - editor:
-          preview: true
-        - name: test
-          label: Test Data
-          files:
-            - label: Test Data
-              name: test_data
-              file: data/test.yml
-              fields:
-                - { label: Subtitle, name: subtitle, widget: string }
+  - editor:
+      preview: true
+    - name: test
+      label: Test Data
+      files:
+        - label: Test Data
+          name: test_data
+          file: data/test.yml
+          fields:
+            - { label: Subtitle, name: subtitle, widget: string }
     label: Seitenübersicht
     name: pages
 media_folder: static/images
