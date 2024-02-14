@@ -26,7 +26,7 @@ collections:
             widget: list
             fields:
               - { label: Description, name: text, widget: string}
-        file: content/english/home/mission.md
+        file: content/english/mission/_index.md
         label: Mission
         name: mission
       - editor:
@@ -71,7 +71,7 @@ collections:
           - label: Feature Image
             name: feature_image
             widget: image
-        file: content/english/home/features.md
+        file: content/english/features/_index.md
         label: Features
         name: features
       - editor:
