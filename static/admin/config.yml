@@ -94,13 +94,14 @@ collections:
         name: imprint
       - editor:
           preview: true
-        fields:
-          - label: Title
-            name: title
-            widget: string
-        file: data/test.yml
-        label: Project
-        name: project
+        - name: test
+          label: Test Data
+          files:
+            - label: Test Data
+              name: test_data
+              file: data/test.yml
+              fields:
+                - { label: Subtitle, name: subtitle, widget: string }
     label: Seitenübersicht
     name: pages
 media_folder: static/images
