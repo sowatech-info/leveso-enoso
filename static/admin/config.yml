@@ -53,7 +53,7 @@ collections:
             widget: list
             fields:
               - { label: Description, name: text, widget: string}
-        file: content/english/benefits/_index.md
+        file: content/english/home/benefits.md
         label: Benefits
         name: benefits
       - editor:
