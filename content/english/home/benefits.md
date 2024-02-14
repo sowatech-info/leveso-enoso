@@ -1,5 +1,5 @@
 ---
-benefit_section_title: Leveso Benefits
+benefit_section_title: Benefits.md Datei in Home
 benefit_section_subtitle: Your benefits
 benefit_images:
   - path: /images/lock.png
