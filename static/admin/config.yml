@@ -6,6 +6,11 @@ collections:
   - files:
       - editor:
           preview: true
+        file: content/english/home/_index.md
+        label: Test
+        name: test
+      - editor:
+          preview: true
         fields:
           - label: Mission Section Title
             name: mission_section_title
