@@ -4,10 +4,11 @@ backend:
   name: git-gateway
 collections:
   - label: "Start"
-    name: "start"
-    folder: "content/english/home"
-    create: false
-    fields:
+  - name: "start"
+  - files:
+      - editor:
+          preview: true
+        fields:
           - { label: "Benefit Section Title", name: "benefit_section_title", widget: "string" }
           - { label: "Benefit Section Subtitle", name: "benefit_section_subtitle", widget: "string" }
           - label: "Benefit Images"
@@ -43,10 +44,11 @@ collections:
             fields:
               - { label: "Description", name: "text", widget: "markdown" }
   - label: "Impressum"
-    name: "imprint"
-    folder: "content/english/imprint"
-    create: false
-    fields:
+  - name: "imprint"
+  - files:
+      - editor:
+          preview: true
+        fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "BG_Image", name: "bg_image", widget: "image" }
           - { label: "Seitentext", name: "body", widget: "markdown" }
