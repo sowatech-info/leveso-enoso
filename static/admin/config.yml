@@ -8,6 +8,9 @@ collections:
   - files:
       - editor:
           preview: true
+        label: "Benefits"
+        name: "benefits"
+        file: "content/english/home/_index.md"
         fields:
           - { label: "Benefit Section Title", name: "benefit_section_title", widget: "string" }
           - { label: "Benefit Section Subtitle", name: "benefit_section_subtitle", widget: "string" }
@@ -48,6 +51,9 @@ collections:
   - files:
       - editor:
           preview: true
+        label: "Benefits"
+        name: "benefits"
+        file: "content/english/home/_index.md"
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "BG_Image", name: "bg_image", widget: "image" }
