@@ -5,7 +5,7 @@ backend:
 collections:
   - label: "Start"
     name: "start"
-    folder: "content/home"
+    folder: "content/english/home"
     create: true
     fields:
           - { label: "Benefit Section Title", name: "benefit_section_title", widget: "string" }
@@ -44,7 +44,7 @@ collections:
               - { label: "Description", name: "text", widget: "markdown" }
   - label: "Impressum"
     name: "imprint"
-    folder: "content/imprint"
+    folder: "content/english/imprint"
     create: true
     fields:
           - { label: "Titel", name: "title", widget: "string" }
