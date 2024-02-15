@@ -6,7 +6,7 @@ collections:
   - label: "Start"
     name: "start"
     folder: "content/home"
-    create: false
+    create: true
     fields:
           - { label: "Mission Section Title", name: "mission_section_title", widget: "string" }
           - { label: "Mission Section Subtitle", name: "mission_section_subtitle", widget: "string" }
