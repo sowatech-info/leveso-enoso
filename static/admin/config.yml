@@ -95,9 +95,9 @@ collections:
           - label: Seitentext
             name: body
             widget: markdown
-        file: content/english/home/_index.md
-        label: Benefits
-        name: benefits
+        file: content/english/imprint/_index.md
+        label: Imprint
+        name: imprint
     label: Impressum
     name: imprint
 media_folder: static/images
