@@ -2,8 +2,6 @@
 backend:
   branch: main
   name: git-gateway
-editor:
-    preview: false
 collections:
   - label: "Start"
     name: "start"
