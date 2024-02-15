@@ -7,30 +7,35 @@ collections:
       - editor:
           preview: true
         fields:
-          - label: Benefit Section Title
-            name: benefit_section_title
-            widget: string
-          - label: Benefit Section Subtitle
-            name: benefit_section_subtitle
-            widget: string
-          - label: Benefit Images
-            name: benefit_images
-            widget: list
+          - label: Benefits
+            name: benefits
+            widget: object
+            collapsed: true
             fields:
-              - { label: URL, name: path, widget: image }
-          - label: Benefit Titles
-            name: benefit_titles
-            widget: list
-            fields:
-              - { label: Title, name: title, widget: string }
-          - label: Benefit Descriptions
-            name: benefit_descriptions
-            widget: list
-            fields:
-              - { label: Description, name: text, widget: string }
+              - label: Benefit Section Title
+                name: benefit_section_title
+                widget: string
+              - label: Benefit Section Subtitle
+                name: benefit_section_subtitle
+                widget: string
+              - label: Benefit Images
+                name: benefit_images
+                widget: list
+                fields:
+                  - { label: URL, name: path, widget: image }
+              - label: Benefit Titles
+                name: benefit_titles
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+              - label: Benefit Descriptions
+                name: benefit_descriptions
+                widget: list
+                fields:
+                  - { label: Description, name: text, widget: string }
         file: content/english/home/_index.md
-        label: Benefits
-        name: benefits
+        label: Homepage
+        name: homepage
       - editor:
           preview: true
         fields:
@@ -46,7 +51,7 @@ collections:
           - label: Feature Image
             name: feature_image
             widget: image
-        file: content/english/home/features.md
+        file: content/english/home/_index.md
         label: Features
         name: features
       - editor:
