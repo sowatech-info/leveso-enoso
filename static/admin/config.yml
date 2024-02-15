@@ -3,64 +3,84 @@ backend:
   branch: main
   name: git-gateway
 collections:
-  - label: "Start"
-  - name: "start"
   - files:
       - editor:
           preview: true
-        label: "Benefits"
-        name: "benefits"
-        file: "content/english/home/_index.md"
         fields:
-          - label: "Benefit Section Title"
-            name: "benefit_section_title"
-            widget: "string"
-          - label: "Benefit Section Subtitle"
-            name: "benefit_section_subtitle"
-            widget: "string"
-          - label: "Benefit Images"
-            name: "benefit_images"
+          - label: Benefit Section Title
+            name: benefit_section_title
+            widget: string
+          - label: Benefit Section Subtitle
+            name: benefit_section_subtitle
+            widget: string
+          - label: Benefit Images
+            name: benefit_images
             widget: list
             fields:
-              - { label: "URL", name: "path", widget: "image" }
+              - { label: URL, name: path, widget: image }
           - label: Benefit Titles
             name: benefit_titles
             widget: list
             fields:
-              - { label: "Title", name: "title", widget: "string" }
-          - label: "Benefit Descriptions"
-            name: "benefit_descriptions"
+              - { label: Title, name: title, widget: string }
+          - label: Benefit Descriptions
+            name: benefit_descriptions
             widget: list
             fields:
-              - { label: "Description", name: "text", widget: "string" }
-          - { label: "Feature Section Title", name: "feature_section_title", widget: "string" }
-          - { label: "Feature Section Subtitle", name: "feature_section_subtitle", widget: "string" }
-          - { label: "Feature Preamble", name: "feature_preamble", widget: "string" }
-          - { label: "Feature Image", name: "feature_image", widget: "image" }
-          - { label: "Mission Section Title", name: "mission_section_title", widget: "string" }
-          - { label: "Mission Section Subtitle", name: "mission_section_subtitle", widget: "string" }
-          - { label: "Mission Section Preamble", name: "mission_section_preamble", widget: "markdown" }
-          - label: "Module Titles"
-            name: "module_titles"
-            widget: "list"
-            fields:
-              - { label: "Title", name: "title", widget: "string" }
-          - label: "Module Descriptions"
-            name: "module_descriptions"
+              - { label: Description, name: text, widget: string }
+          - label: Feature Section Title
+            name: feature_section_title
+            widget: string
+          - label: Feature Section Subtitle
+            name: feature_section_subtitle
+            widget: string
+          - label: Feature Preamble
+            name: feature_preamble
+            widget: string
+          - label: Feature Image
+            name: feature_image
+            widget: image
+          - label: Mission Section Title
+            name: mission_section_title
+            widget: string
+          - label: Mission Section Subtitle
+            name: mission_section_subtitle
+            widget: string
+          - label: Mission Section Preamble
+            name: mission_section_preamble
+            widget: markdown
+          - label: Module Titles
+            name: module_titles
             widget: list
             fields:
-              - { label: "Description", name: "text", widget: "markdown" }
-  - label: "Impressum"
-  - name: "imprint"
+              - { label: Title, name: title, widget: string }
+          - label: Module Descriptions
+            name: module_descriptions
+            widget: list
+            fields:
+              - { label: Description, name: text, widget: markdown }
+        file: content/english/home/_index.md
+        label: Benefits
+        name: benefits
+    label: Start
+    name: start
   - files:
       - editor:
           preview: true
-        label: "Benefits"
-        name: "benefits"
-        file: "content/english/home/_index.md"
         fields:
-          - { label: "Titel", name: "title", widget: "string" }
-          - { label: "BG_Image", name: "bg_image", widget: "image" }
-          - { label: "Seitentext", name: "body", widget: "markdown" }
+          - label: Titel
+            name: title
+            widget: string
+          - label: BG_Image
+            name: bg_image
+            widget: image
+          - label: Seitentext
+            name: body
+            widget: markdown
+        file: content/english/home/_index.md
+        label: Benefits
+        name: benefits
+    label: Impressum
+    name: imprint
 media_folder: static/images
 public_folder: /images
