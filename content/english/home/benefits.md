@@ -1,0 +1,25 @@
+---
+benefit_section_title: _index.md Datei in Benefits
+benefit_section_subtitle: Your benefits
+benefit_images:
+  - path: /images/lock.png
+  - path: /images/certified.png
+  - path: /images/calender.png
+benefit_titles:
+  - title: Verschlüsselt
+  - title: ISO zertifizierte Server
+  - title: Tägliche Datensicherung
+benefit_descriptions:
+  - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
+      delectus magni modi molestias repudiandae ratione consectetur, placeat
+      doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
+      aut?
+  - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
+      delectus magni modi molestias repudiandae ratione consectetur, placeat
+      doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
+      aut?
+  - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
+      delectus magni modi molestias repudiandae ratione consectetur, placeat
+      doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
+      aut?
+---
