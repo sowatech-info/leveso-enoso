@@ -33,6 +33,37 @@ collections:
                 widget: list
                 fields:
                   - { label: Description, name: text, widget: string }
+          - label: Features
+            name: features
+            widget: object
+            collapsed: true
+            fields:
+              - label: Feature Section Title
+                name: section_title
+                widget: string
+              - label: Feature Section Subtitle
+                name: section_subtitle
+                widget: string
+              - label: Feature Preamble
+                name: preamble
+                widget: string
+              - label: Feature Image
+                name: image
+                widget: image
+          - label: Mission
+            name: mission
+            widget: object
+            collapsed: true
+            fields:
+              - label: Mission Section Title
+                name: mission_section_title
+                widget: string
+              - label: Mission Section Subtitle
+                name: mission_section_subtitle
+                widget: string
+              - label: Mission Section Preamble
+                name: mission_section_preamble
+                widget: markdown
         file: content/english/home/_index.md
         label: Homepage
         name: homepage
@@ -40,16 +71,16 @@ collections:
           preview: true
         fields:
           - label: Feature Section Title
-            name: feature_section_title
+            name: section_title
             widget: string
           - label: Feature Section Subtitle
-            name: feature_section_subtitle
+            name: section_subtitle
             widget: string
           - label: Feature Preamble
-            name: feature_preamble
+            name: preamble
             widget: string
           - label: Feature Image
-            name: feature_image
+            name: image
             widget: image
         file: content/english/home/_index.md
         label: Features
