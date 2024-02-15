@@ -8,9 +8,30 @@ collections:
     folder: "content/home"
     create: true
     fields:
+          - { label: "Benefit Section Title", name: "benefit_section_title", widget: "string" }
+          - { label: "Benefit Section Subtitle", name: "benefit_section_subtitle", widget: "string" }
+          - label: "Benefit Images"
+            name: "benefit_images"
+            widget: list
+            fields:
+              - { label: "URL", name: "path", widget: "image" }
+          - label: Benefit Titles
+            name: benefit_titles
+            widget: list
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+          - label: "Benefit Descriptions"
+            name: "benefit_descriptions"
+            widget: list
+            fields:
+              - { label: "Description", name: "text", widget: "string" }
+          - { label: "Feature Section Title", name: "feature_section_title", widget: "string" }
+          - { label: "Feature Section Subtitle", name: "feature_section_subtitle", widget: "string" }
+          - { label: "Feature Preamble", name: "feature_preamble", widget: "string" }
+          - { label: "Feature Image", name: "feature_image", widget: "image" }
           - { label: "Mission Section Title", name: "mission_section_title", widget: "string" }
           - { label: "Mission Section Subtitle", name: "mission_section_subtitle", widget: "string" }
-          - { label: "Mission Section Preamble", name: "mission_section_preamble", widget: "string" }
+          - { label: "Mission Section Preamble", name: "mission_section_preamble", widget: "markdown" }
           - label: "Module Titles"
             name: "module_titles"
             widget: "list"
@@ -20,28 +41,7 @@ collections:
             name: "module_descriptions"
             widget: list
             fields:
-              - { label: "Description", name: "text", widget: "string" }
-          - { label: "Benefit Section Title", name: "benefit_section_title", widget: "string" }
-          - { label: "Benefit Section Subtitle", name: "benefit_section_subtitle", widget: "string" }
-          - label: Benefit Images
-            name: benefit_images
-            widget: list
-            fields:
-              - { label: URL, name: path, widget: image}
-          - label: Benefit Titles
-            name: benefit_titles
-            widget: list
-            fields:
-              - { label: Title, name: title, widget: string}
-          - label: Benefit Descriptions
-            name: benefit_descriptions
-            widget: list
-            fields:
-              - { label: Description, name: text, widget: string}
-          - { label: "Feature Section Title", name: "feature_section_title", widget: "string" }
-          - { label: "Feature Section Subtitle", name: "feature_section_subtitle", widget: "string" }
-          - { label: "Feature Preamble", name: "feature_preamble", widget: "string" }
-          - { label: "Feature Image", name: "feature_image", widget: "image" }
+              - { label: "Description", name: "text", widget: "markdown" }
   - label: "Impressum"
     name: "imprint"
     folder: "content/imprint"
@@ -49,7 +49,6 @@ collections:
     fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "BG_Image", name: "bg_image", widget: "image" }
-          - { label: "Description", name: "description", widget: "string" }
           - { label: "Seitentext", name: "body", widget: "markdown" }
 media_folder: static/images
 public_folder: /images
