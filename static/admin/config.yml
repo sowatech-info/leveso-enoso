@@ -13,23 +13,23 @@ collections:
             collapsed: true
             fields:
               - label: Benefit Section Title
-                name: benefit_section_title
+                name: section_title
                 widget: string
               - label: Benefit Section Subtitle
-                name: benefit_section_subtitle
+                name: section_subtitle
                 widget: string
               - label: Benefit Images
-                name: benefit_images
+                name: images
                 widget: list
                 fields:
                   - { label: URL, name: path, widget: image }
               - label: Benefit Titles
-                name: benefit_titles
+                name: titles
                 widget: list
                 fields:
                   - { label: Title, name: title, widget: string }
               - label: Benefit Descriptions
-                name: benefit_descriptions
+                name: descriptions
                 widget: list
                 fields:
                   - { label: Description, name: text, widget: string }
