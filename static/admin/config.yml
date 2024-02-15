@@ -6,6 +6,7 @@ collections:
   - label: "Start"
     name: "start"
     folder: "content/home"
+    create: true
     fields:
           - { label: "Mission Section Title", name: "mission_section_title", widget: "string" }
           - { label: "Mission Section Subtitle", name: "mission_section_subtitle", widget: "string" }
@@ -44,7 +45,7 @@ collections:
   - label: "Impressum"
     name: "imprint"
     folder: "content/imprint"
-    create: false
+    create: true
     fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "BG_Image", name: "bg_image", widget: "image" }
