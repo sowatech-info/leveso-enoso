@@ -42,18 +42,6 @@ collections:
           - { label: "Feature Section Subtitle", name: "feature_section_subtitle", widget: "string" }
           - { label: "Feature Preamble", name: "feature_preamble", widget: "string" }
           - { label: "Feature Image", name: "feature_image", widget: "image" }
-  - label: "Funktionen"
-    name: "features"
-    folder: "content/features"
-    create: false
-  - label: "Über uns"
-    name: "about"
-    folder: "content/about"
-    create: false
-  - label: "Kontakt"
-    name: "contact"
-    folder: "content/contact"
-    create: false
   - label: "Impressum"
     name: "imprint"
     folder: "content/imprint"
