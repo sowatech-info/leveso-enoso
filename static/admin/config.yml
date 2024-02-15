@@ -56,13 +56,13 @@ collections:
             collapsed: true
             fields:
               - label: Mission Section Title
-                name: mission_section_title
+                name: section_title
                 widget: string
               - label: Mission Section Subtitle
-                name: mission_section_subtitle
+                name: section_subtitle
                 widget: string
               - label: Mission Section Preamble
-                name: mission_section_preamble
+                name: section_preamble
                 widget: markdown
         file: content/english/home/_index.md
         label: Homepage
@@ -89,13 +89,13 @@ collections:
           preview: true
         fields:
           - label: Mission Section Title
-            name: mission_section_title
+            name: section_title
             widget: string
           - label: Mission Section Subtitle
-            name: mission_section_subtitle
+            name: section_subtitle
             widget: string
           - label: Mission Section Preamble
-            name: mission_section_preamble
+            name: section_preamble
             widget: markdown
         file: content/english/home/mission.md
         label: Mission

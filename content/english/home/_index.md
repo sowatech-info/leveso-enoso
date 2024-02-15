@@ -38,4 +38,8 @@ features:
 mission:
   section_title: Our Mission
   section_subtitle: Our Mission
+  section_preamble: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
+        delectus magni modi molestias repudiandae ratione consectetur, placeat
+        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
+        aut?
 ---
