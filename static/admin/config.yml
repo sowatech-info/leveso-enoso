@@ -28,6 +28,12 @@ collections:
             widget: list
             fields:
               - { label: Description, name: text, widget: string }
+        file: content/english/home/_index.md
+        label: Benefits
+        name: benefits
+      - editor:
+          preview: true
+        fields:
           - label: Feature Section Title
             name: feature_section_title
             widget: string
@@ -40,6 +46,12 @@ collections:
           - label: Feature Image
             name: feature_image
             widget: image
+        file: content/english/home/_index.md
+        label: Features
+        name: features
+      - editor:
+          preview: true
+        fields:
           - label: Mission Section Title
             name: mission_section_title
             widget: string
@@ -49,6 +61,12 @@ collections:
           - label: Mission Section Preamble
             name: mission_section_preamble
             widget: markdown
+        file: content/english/home/_index.md
+        label: Mission
+        name: mission
+      - editor:
+          preview: true
+        fields:
           - label: Module Titles
             name: module_titles
             widget: list
@@ -60,8 +78,8 @@ collections:
             fields:
               - { label: Description, name: text, widget: markdown }
         file: content/english/home/_index.md
-        label: Benefits
-        name: benefits
+        label: Modules
+        name: modules
     label: Start
     name: start
   - files:
