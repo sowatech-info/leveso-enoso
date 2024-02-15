@@ -2,42 +2,29 @@
 backend:
   branch: main
   name: git-gateway
+editor:
+    preview: false
 collections:
-  - files:
-      - editor:
-          preview: true
-        fields:
-          - label: Mission Section Title
-            name: mission_section_title
-            widget: string
-          - label: Mission Section Subtitle
-            name: mission_section_subtitle
-            widget: string
-          - label: Mission Section Preamble
-            name: mission_section_preamble
-            widget: string
-          - label: Module Titles
-            name: module_titles
+  - label: "Start"
+    name: "start"
+    folder: "content/home"
+    create: false
+    fields:
+          - { label: "Mission Section Title", name: "mission_section_title", widget: "string" }
+          - { label: "Mission Section Subtitle", name: "mission_section_subtitle", widget: "string" }
+          - { label: "Mission Section Preamble", name: "mission_section_preamble", widget: "string" }
+          - label: "Module Titles"
+            name: "module_titles"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+          - label: "Module Descriptions"
+            name: "module_descriptions"
             widget: list
             fields:
-              - { label: Title, name: title, widget: string}
-          - label: Module Descriptions
-            name: module_descriptions
-            widget: list
-            fields:
-              - { label: Description, name: text, widget: string}
-        file: content/english/mission/_index.md
-        label: Mission
-        name: mission
-      - editor:
-          preview: true
-        fields:
-          - label: Benefit Section Title
-            name: benefit_section_title
-            widget: string
-          - label: Benefit Section Subtitle
-            name: benefit_section_subtitle
-            widget: string
+              - { label: "Description", name: "text", widget: "string" }
+          - { label: "Benefit Section Title", name: "benefit_section_title", widget: "string" }
+          - { label: "Benefit Section Subtitle", name: "benefit_section_subtitle", widget: "string" }
           - label: Benefit Images
             name: benefit_images
             widget: list
@@ -53,29 +40,26 @@ collections:
             widget: list
             fields:
               - { label: Description, name: text, widget: string}
-        file: content/english/home/_index.md
-        label: Benefits
-        name: benefits
-      - editor:
-          preview: true
-        fields:
-          - label: Feature Section Title
-            name: feature_section_title
-            widget: string
-          - label: Feature Section Subtitle
-            name: feature_section_subtitle
-            widget: string
-          - label: Feature Preamble
-            name: feature_preamble
-            widget: string
-          - label: Feature Image
-            name: feature_image
-            widget: image
-        file: content/english/home/_index.md
-        label: Features
-        name: features
-      - editor:
-          preview: true
+          - { label: "Feature Section Title", name: "feature_section_title", widget: "string" }
+          - { label: "Feature Section Subtitle", name: "feature_section_subtitle", widget: "string" }
+          - { label: "Feature Preamble", name: "feature_preamble", widget: "string" }
+          - { label: "Feature Image", name: "feature_image", widget: "image" }
+  - label: "Funktionen"
+    name: "features"
+    folder: "content/features"
+    create: false
+  - label: "Über uns"
+    name: "about"
+    folder: "content/about"
+    create: false
+  - label: "Kontakt"
+    name: "contact"
+    folder: "content/contact"
+    create: false
+  - label: "Impressum"
+    name: "imprint"
+    folder: "content/imprint"
+    create: false
         fields:
           - label: Titel
             name: title
@@ -88,10 +72,7 @@ collections:
             widget: string
           - label: Seitentext
             name: body
-            widget: markdown          
-        file: content/english/imprint/_index.md
-        label: Impressum
-        name: imprint
+            widget: markdown
     label: Seitenübersicht
     name: pages
 media_folder: static/images
