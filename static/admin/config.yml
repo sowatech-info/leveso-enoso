@@ -12,8 +12,12 @@ collections:
         name: "benefits"
         file: "content/english/home/_index.md"
         fields:
-          - { label: "Benefit Section Title", name: "benefit_section_title", widget: "string" }
-          - { label: "Benefit Section Subtitle", name: "benefit_section_subtitle", widget: "string" }
+          - label: "Benefit Section Title"
+            name: "benefit_section_title"
+            widget: "string"
+          - label: "Benefit Section Subtitle"
+            name: "benefit_section_subtitle"
+            widget: "string"
           - label: "Benefit Images"
             name: "benefit_images"
             widget: list
