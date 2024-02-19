@@ -65,15 +65,15 @@ collections:
                 name: preamble
                 widget: markdown
               - label: Modules Titles
-                name: modules titles
+                name: module_titles
                 widget: list
                 fields:
-                  - { label: Module Title, name: module_titles, widget: string }
+                  - { label: Module Title, name: module_title, widget: string }
               - label: Modules Descriptions
-                name: modules descriptions
+                name: module_descriptions
                 widget: list
                 fields:
-                  - { label: Module Description, name: module_descriptions, widget: markdown }
+                  - { label: Module Description, name: module_description, widget: markdown }
         file: content/english/home/_index.md
         label: Homepage
         name: homepage

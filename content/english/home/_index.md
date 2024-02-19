@@ -40,24 +40,6 @@ mission:
   preamble: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea
     quo delectus magni modi molestias repudiandae ratione consectetur, placeat
     doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat aut?
-  module_titles: null
-  module_descriptions: null
-  modules titles:
-    - module_titles: Module 1
-    - module_titles: Module 2
-    - module_titles: " Module 3"
-    - module_titles: " Module 4"
-  modules descriptions:
-    - module_descriptions: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Debitis, ea quo delectus magni modi molestias repudiandae ratione
-        consectetur, placeat doloribus iste, fugiat tempora maxime.
-    - module_descriptions: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Debitis, ea quo delectus magni modi molestias repudiandae ratione
-        consectetur, placeat doloribus iste, fugiat tempora maxime.
-    - module_descriptions: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Debitis, ea quo delectus magni modi molestias repudiandae ratione
-        consectetur, placeat doloribus iste, fugiat tempora maxime.
-    - module_descriptions: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Debitis, ea quo delectus magni modi molestias repudiandae ratione
-        consectetur, placeat doloribus iste, fugiat tempora maxime.
+  module_titles:
+  module_descriptions:
 ---
