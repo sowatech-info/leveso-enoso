@@ -12,14 +12,17 @@ collections:
             widget: object
             collapsed: true
             fields:
+              - label: Banner Image
+                name: image
+                widget: image
               - label: Banner Title
                 name: title
-                widget: string
-              - label: Banner Subtitle
-                name: subtitle
-                widget: string
+                widget: markdown
               - label: Video URL
                 name: url
+                widget: string
+              - label: URL Title
+                name: url_title
                 widget: string
           - label: Benefits
             name: benefits
@@ -36,7 +39,7 @@ collections:
                 name: images
                 widget: list
                 fields:
-                  - { label: URL, name: path, widget: image }
+                  - { label: Image, name: image, widget: image }
               - label: Benefit Titles
                 name: titles
                 widget: list
@@ -109,6 +112,20 @@ collections:
                 widget: list
                 fields:
                   - { label: Logo, name: logo, widget: image }
+          - label: Project
+            name: project
+            widget: object
+            collapsed: true
+            fields:
+              - label: Project Title
+                name: title
+                widget: string
+              - label: Project Subtitle
+                name: subtitle
+                widget: string
+              - label: Project Image
+                name: image
+                widget: image
         file: content/english/home/_index.md
         label: Homepage
         name: homepage

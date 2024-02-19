@@ -10,7 +10,7 @@
         </div>
         {{ range .Params.benefits.images }}
         <div class="col-sm-4 text-center pb-4">
-            <img class="benefits-images" src="{{ .path }}" alt="{{ .alt }}">
+            <img class="benefits-images" src="{{ .image }}">
         </div>
         {{ end }}
         {{ range .Params.benefits.titles }}
@@ -45,7 +45,7 @@
         </div>
         <p>{{ .Params.mission.preamble }}</p>
         {{ range $index, $module := .Params.mission.module_titles }}
-        <div class="col-lg-4 col-md-6 my-5">
+        <div class="col-lg-4 col-md-6 my-3">
             <div class="card-header bg-gray border p-0">
                 <a class="card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse"
                     href="#collapse{{ $index }}">
@@ -73,6 +73,17 @@
             <img src="{{ .image }}" class="float-left" width="100%">
         </div>
         {{ end }}
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 my-5">
+            <h5 class="section-title-sm">{{ .Params.projects.subtitle }}</h5>
+            <h2 class="section-title section-title-border-half">{{ .Params.projects.title }}</h2>
+            <p>{{ .Params.projects.preamble }}</p>
+        </div>
+        <img src="{{ .Params.projects.image }}" class="float-left" width="100%">
     </div>
 </div>
 
