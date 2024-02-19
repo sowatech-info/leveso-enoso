@@ -7,6 +7,20 @@ collections:
       - editor:
           preview: true
         fields:
+          - label: Banner
+            name: banner
+            widget: object
+            collapsed: true
+            fields:
+              - label: Banner Title
+                name: title
+                widget: string
+              - label: Banner Subtitle
+                name: subtitle
+                widget: string
+              - label: Video URL
+                name: url
+                widget: string
           - label: Benefits
             name: benefits
             widget: object

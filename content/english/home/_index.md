@@ -3,6 +3,10 @@ title: Home
 date: 2018-07-12T18:19:33+06:00
 bg_image: images/background/page-title.jpg
 description: This is meta description
+banner:
+  title:
+  subtitle:
+  url:
 benefits:
   title: Your Benefits
   subtitle: Your Benefits
@@ -56,6 +60,6 @@ success_stories:
   subtitle: Success Stories
   images:
     - image: /images/chart.png
+    - image: /images/enoso_logo_final.svg
   logos:
-    - logo: /images/enoso_logo_final.svg
 ---
