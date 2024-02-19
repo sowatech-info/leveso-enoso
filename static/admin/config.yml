@@ -129,6 +129,23 @@ collections:
               - label: Project Image
                 name: image
                 widget: image
+          - label: Philosophy
+            name: philosophy
+            widget: object
+            collapsed: true
+            fields:
+              - label: Philosophy Title
+                name: title
+                widget: string
+              - label: Philosophy Subtitle
+                name: subtitle
+                widget: string
+              - label: Philosophy Description
+                name: description
+                widget: markdown
+              - label: Philosophy Image
+                name: image
+                widget: image
         file: content/english/home/_index.md
         label: Homepage
         name: homepage

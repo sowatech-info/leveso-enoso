@@ -2,10 +2,7 @@
 bg_image: images/background/page-title.jpg
 banner:
   image: /images/background/promo-video.jpg
-  title: |-
-    We are always
-
-    committed
+  title: We are always committed
   url: https://www.youtube.com/watch?v=jrkvirglgaQ
   url_title: Image Video
 features:
@@ -89,7 +86,18 @@ benefits:
 project:
   title: Our Project
   subtitle: Our Project
-  preamble: null
+  preamble: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
+        delectus magni modi molestias repudiandae ratione consectetur, placeat
+        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
+        aut?
   image: /images/project.png
+philosophy:
+  title: Our Philosophy
+  subtitle: Our Philosophy
+  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
+        delectus magni modi molestias repudiandae ratione consectetur, placeat
+        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
+        aut?
+  image: /images/about/philosophy.jpg
 description: This is meta description
 ---
