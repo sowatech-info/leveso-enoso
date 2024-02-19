@@ -1,36 +1,9 @@
 ---
-title: Home
-date: 2018-07-12T18:19:33+06:00
 bg_image: images/background/page-title.jpg
-description: This is meta description
 banner:
-  title:
-  subtitle:
-  url:
-benefits:
-  title: Your Benefits
-  subtitle: Your Benefits
-  images:
-    - path: /images/lock.png
-    - path: /images/certified.png
-    - path: /images/calender.png
-  titles:
-    - title: Verschlüsselt
-    - title: ISO zertifizierte Server
-    - title: Tägliche Datensicherung
-  descriptions:
-    - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
-        delectus magni modi molestias repudiandae ratione consectetur, placeat
-        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
-        aut?
-    - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
-        delectus magni modi molestias repudiandae ratione consectetur, placeat
-        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
-        aut?
-    - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
-        delectus magni modi molestias repudiandae ratione consectetur, placeat
-        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
-        aut?
+  title: We are always committed
+  subtitle: Image Video
+  url: https://www.youtube.com/watch?v=jrkvirglgaQ
 features:
   title: Our Features
   subtitle: Our Features
@@ -55,11 +28,38 @@ mission:
         Debitis, ea quo delectus magni modi molestias repudiandae ratione
         consectetur, placeat doloribus iste, fugiat tempora maxime. Dicta
         officia ad fugiat quaerat aut?
+date: 2018-07-12T18:19:33+06:00
 success_stories:
   title: Success Stories
   subtitle: Success Stories
   images:
     - image: /images/chart.png
     - image: /images/enoso_logo_final.svg
-  logos:
+  logos: null
+title: Home
+benefits:
+  title: Your Benefits
+  subtitle: Your Benefits
+  images:
+    - path: /images/lock.png
+    - path: /images/certified.png
+    - path: /images/calender.png
+  titles:
+    - title: Verschlüsselt
+    - title: ISO zertifizierte Server
+    - title: Tägliche Datensicherung
+  descriptions:
+    - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
+        delectus magni modi molestias repudiandae ratione consectetur, placeat
+        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
+        aut?
+    - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
+        delectus magni modi molestias repudiandae ratione consectetur, placeat
+        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
+        aut?
+    - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
+        delectus magni modi molestias repudiandae ratione consectetur, placeat
+        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
+        aut?
+description: This is meta description
 ---
