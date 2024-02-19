@@ -12,11 +12,11 @@ collections:
             widget: object
             collapsed: true
             fields:
-              - label: Benefit Section Title
-                name: section_title
+              - label: Benefit Title
+                name: title
                 widget: string
-              - label: Benefit Section Subtitle
-                name: section_subtitle
+              - label: Benefit Subtitle
+                name: subtitle
                 widget: string
               - label: Benefit Images
                 name: images
@@ -38,11 +38,11 @@ collections:
             widget: object
             collapsed: true
             fields:
-              - label: Feature Section Title
-                name: section_title
+              - label: Feature Title
+                name: title
                 widget: string
-              - label: Feature Section Subtitle
-                name: section_subtitle
+              - label: Feature Subtitle
+                name: subtitle
                 widget: string
               - label: Feature Preamble
                 name: preamble
@@ -55,26 +55,25 @@ collections:
             widget: object
             collapsed: true
             fields:
-              - label: Mission Section Title
-                name: section_title
+              - label: Mission Title
+                name: title
                 widget: string
-              - label: Mission Section Subtitle
-                name: section_subtitle
+              - label: Mission Subtitle
+                name: subtitle
                 widget: string
-              - label: Mission Section Preamble
-                name: section_preamble
+              - label: Mission Preamble
+                name: preamble
                 widget: markdown
-          - label: Modules
-            name: modules
-            widget: object
-            collapsed: true
-            fields:
-              - label: Modules Section Title
-                name: section_title
-                widget: string
-              - label: Modules Section Subtitle
-                name: section_subtitle
-                widget: string
+              - label: Modules Titles
+                name: modules titles
+                widget: list
+                fields:
+                  - { label: Module Title, name: module_titles, widget: string }
+              - label: Modules Descriptions
+                name: modules descriptions
+                widget: list
+                fields:
+                  - { label: Module Description, name: module_descriptions, widget: markdown }
         file: content/english/home/_index.md
         label: Homepage
         name: homepage
