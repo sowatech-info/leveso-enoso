@@ -64,58 +64,20 @@ collections:
               - label: Mission Section Preamble
                 name: section_preamble
                 widget: markdown
+          - label: Modules
+            name: modules
+            widget: object
+            collapsed: true
+            fields:
+              - label: Modules Section Title
+                name: section_title
+                widget: string
+              - label: Modules Section Subtitle
+                name: section_subtitle
+                widget: string
         file: content/english/home/_index.md
         label: Homepage
         name: homepage
-      - editor:
-          preview: true
-        fields:
-          - label: Feature Section Title
-            name: section_title
-            widget: string
-          - label: Feature Section Subtitle
-            name: section_subtitle
-            widget: string
-          - label: Feature Preamble
-            name: preamble
-            widget: string
-          - label: Feature Image
-            name: image
-            widget: image
-        file: content/english/home/_index.md
-        label: Features
-        name: features
-      - editor:
-          preview: true
-        fields:
-          - label: Mission Section Title
-            name: section_title
-            widget: string
-          - label: Mission Section Subtitle
-            name: section_subtitle
-            widget: string
-          - label: Mission Section Preamble
-            name: section_preamble
-            widget: markdown
-        file: content/english/home/mission.md
-        label: Mission
-        name: mission
-      - editor:
-          preview: true
-        fields:
-          - label: Module Titles
-            name: module_titles
-            widget: list
-            fields:
-              - { label: Title, name: title, widget: string }
-          - label: Module Descriptions
-            name: module_descriptions
-            widget: list
-            fields:
-              - { label: Description, name: text, widget: markdown }
-        file: content/english/home/modules.md
-        label: Modules
-        name: modules
     label: Start
     name: start
   - files:

@@ -42,4 +42,7 @@ mission:
         delectus magni modi molestias repudiandae ratione consectetur, placeat
         doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
         aut?
+modules:
+  section_title: Our Modules
+  section_subtitle: Our Modules
 ---
