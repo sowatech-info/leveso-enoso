@@ -41,5 +41,7 @@ mission:
     quo delectus magni modi molestias repudiandae ratione consectetur, placeat
     doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat aut?
   module_titles:
+    - module_title: test 1
   module_descriptions:
+    - module_description: test 2
 ---
