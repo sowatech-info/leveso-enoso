@@ -49,6 +49,8 @@ mission:
     - module_description: test 2-2
     - module_description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo delectus magni modi molestias repudiandae ratione consectetur, placeat doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat aut?
 success_stories:
-    - images:
-    - logos:
+  title:
+  subtitle:
+  images:
+  logos:
 ---

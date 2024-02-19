@@ -79,6 +79,12 @@ collections:
             widget: object
             collapsed: true
             fields:
+              - label: Success Stories Title
+                name: title
+                widget: string
+              - label: Success Stories Subtitle
+                name: subtitle
+                widget: string
               - label: Images
                 name: images
                 widget: list
