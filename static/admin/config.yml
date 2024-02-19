@@ -123,6 +123,9 @@ collections:
               - label: Project Subtitle
                 name: subtitle
                 widget: string
+              - label: Project Preamble
+                name: preamble
+                widget: markdown
               - label: Project Image
                 name: image
                 widget: image
