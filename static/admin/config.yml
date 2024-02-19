@@ -74,6 +74,21 @@ collections:
                 widget: list
                 fields:
                   - { label: Module Description, name: module_description, widget: markdown }
+          - label: Success Stories
+            name: success_stories
+            widget: object
+            collapsed: true
+            fields:
+              - label: Images
+                name: images
+                widget: list
+                fields:
+                  - { label: Image, name: image, widget: image }
+              - label: Logos
+                name: logos
+                widget: list
+                fields:
+                  - { label: Logo, name: logo, widget: image }
         file: content/english/home/_index.md
         label: Homepage
         name: homepage
