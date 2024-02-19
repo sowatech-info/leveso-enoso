@@ -79,7 +79,7 @@ collections:
         label: Homepage
         name: homepage
     label: Start
-    name: start
+    name: homepage
   - files:
       - editor:
           preview: true
