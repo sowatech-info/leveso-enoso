@@ -47,10 +47,15 @@ mission:
   module_descriptions:
     - module_description: test 1-1
     - module_description: test 2-2
-    - module_description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo delectus magni modi molestias repudiandae ratione consectetur, placeat doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat aut?
+    - module_description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Debitis, ea quo delectus magni modi molestias repudiandae ratione
+        consectetur, placeat doloribus iste, fugiat tempora maxime. Dicta
+        officia ad fugiat quaerat aut?
 success_stories:
-  title:
-  subtitle:
+  title: Success Stories
+  subtitle: Success Stories
   images:
+    - image: /images/chart.png
   logos:
+    - logo: /images/enoso_logo_final.svg
 ---
