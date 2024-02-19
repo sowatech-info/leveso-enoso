@@ -1,15 +1,13 @@
 ---
-title: Home
 bg_image: images/background/page-title.jpg
-date: 2018-07-12T18:19:33+06:00
-description: This is meta description
-
 banner:
   image: /images/background/promo-video.jpg
-  title: We are always committed
+  title: |-
+    We are always
+
+    committed
   url: https://www.youtube.com/watch?v=jrkvirglgaQ
   url_title: Image Video
-
 features:
   title: Our Features
   subtitle: Our Features
@@ -17,7 +15,6 @@ features:
     quo delectus magni modi molestias repudiandae ratione consectetur, placeat
     doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat aut?
   image: /images/features.png
-
 mission:
   title: Our Mission
   subtitle: Our Mission
@@ -56,7 +53,7 @@ mission:
         Debitis, ea quo delectus magni modi molestias repudiandae ratione
         consectetur, placeat doloribus iste, fugiat tempora maxime. Dicta
         officia ad fugiat quaerat aut?
-
+date: 2018-07-12T18:19:33+06:00
 success_stories:
   title: Success Stories
   subtitle: Success Stories
@@ -64,7 +61,7 @@ success_stories:
     - image: /images/chart.png
     - image: /images/enoso_logo_final.svg
   logos: null
-
+title: Home
 benefits:
   title: Your Benefits
   subtitle: Your Benefits
@@ -89,10 +86,10 @@ benefits:
         delectus magni modi molestias repudiandae ratione consectetur, placeat
         doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
         aut?
-
 project:
-  title:
-  subtitle:
-  preamble:
-  image:
+  title: Our Project
+  subtitle: Our Project
+  preamble: null
+  image: /images/project.png
+description: This is meta description
 ---
