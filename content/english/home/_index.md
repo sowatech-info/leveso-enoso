@@ -41,12 +41,7 @@ mission:
     - module_title: Module 3
     - module_title: Module 4
     - module_title: Module 5
-    - module_title: Module 6
   module_descriptions:
-    - module_description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Debitis, ea quo delectus magni modi molestias repudiandae ratione
-        consectetur, placeat doloribus iste, fugiat tempora maxime. Dicta
-        officia ad fugiat quaerat aut?
     - module_description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Debitis, ea quo delectus magni modi molestias repudiandae ratione
         consectetur, placeat doloribus iste, fugiat tempora maxime. Dicta
