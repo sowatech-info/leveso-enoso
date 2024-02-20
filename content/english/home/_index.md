@@ -41,6 +41,7 @@ mission:
     - module_title: Module 3
     - module_title: Module 4
     - module_title: Module 5
+    - module_title: Test
   module_descriptions:
     - module_description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Debitis, ea quo delectus magni modi molestias repudiandae ratione
@@ -62,6 +63,7 @@ mission:
         Debitis, ea quo delectus magni modi molestias repudiandae ratione
         consectetur, placeat doloribus iste, fugiat tempora maxime. Dicta
         officia ad fugiat quaerat aut?
+    - module_description: Test Modul
 date: 2018-07-12T18:19:33+06:00
 features:
   title: Our Features
