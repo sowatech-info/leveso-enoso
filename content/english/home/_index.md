@@ -5,13 +5,30 @@ banner:
   title: We are always committed
   url: https://www.youtube.com/watch?v=jrkvirglgaQ
   url_title: Image Video
-features:
-  title: Our Features
-  subtitle: Our Features
-  preamble: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea
-    quo delectus magni modi molestias repudiandae ratione consectetur, placeat
-    doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat aut?
-  image: /images/features.png
+benefits:
+  title: Wonderful Benefit Title
+  subtitle: Your Benefits
+  images:
+    - image: /images/enoso_logo_final.svg
+    - image: /images/certified.png
+    - image: /images/calender.png
+  titles:
+    - title: Verschlüsselt
+    - title: ISO zertifizierte Server
+    - title: Tägliche Datensicherung
+  descriptions:
+    - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
+        delectus magni modi molestias repudiandae ratione consectetur, placeat
+        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
+        aut?
+    - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
+        delectus magni modi molestias repudiandae ratione consectetur, placeat
+        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
+        aut?
+    - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
+        delectus magni modi molestias repudiandae ratione consectetur, placeat
+        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
+        aut?
 mission:
   title: Our Mission
   subtitle: Our Mission
@@ -51,6 +68,13 @@ mission:
         consectetur, placeat doloribus iste, fugiat tempora maxime. Dicta
         officia ad fugiat quaerat aut?
 date: 2018-07-12T18:19:33+06:00
+features:
+  title: Our Features
+  subtitle: Our Features
+  preamble: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea
+    quo delectus magni modi molestias repudiandae ratione consectetur, placeat
+    doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat aut?
+  image: /images/features.png
 success_stories:
   title: Success Stories
   subtitle: Success Stories
@@ -58,46 +82,21 @@ success_stories:
     - image: /images/chart.png
     - image: /images/enoso_logo_final.svg
   logos: null
-title: Home
-benefits:
-  title: Your Benefits
-  subtitle: Your Benefits
-  images:
-    - image: /images/lock.png
-    - image: /images/certified.png
-    - image: /images/calender.png
-  titles:
-    - title: Verschlüsselt
-    - title: ISO zertifizierte Server
-    - title: Tägliche Datensicherung
-  descriptions:
-    - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
-        delectus magni modi molestias repudiandae ratione consectetur, placeat
-        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
-        aut?
-    - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
-        delectus magni modi molestias repudiandae ratione consectetur, placeat
-        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
-        aut?
-    - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
-        delectus magni modi molestias repudiandae ratione consectetur, placeat
-        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
-        aut?
 project:
   title: Our Project
   subtitle: Our Project
-  preamble: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
-        delectus magni modi molestias repudiandae ratione consectetur, placeat
-        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
-        aut?
+  preamble: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea
+    quo delectus magni modi molestias repudiandae ratione consectetur, placeat
+    doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat aut?
   image: /images/project.png
 philosophy:
   title: Our Philosophy
   subtitle: Our Philosophy
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
-        delectus magni modi molestias repudiandae ratione consectetur, placeat
-        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
-        aut?
+  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+    ea quo delectus magni modi molestias repudiandae ratione consectetur,
+    placeat doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat
+    quaerat aut?
   image: /images/about/philosophy.jpg
+title: Home
 description: This is meta description
 ---
