@@ -70,12 +70,11 @@ mission:
     - module_description: Test Modul
 date: 2018-07-12T18:19:33+06:00
 features:
-  title: Our Features
-  subtitle: Our Features
-  preamble: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea
-    quo delectus magni modi molestias repudiandae ratione consectetur, placeat
-    doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat aut?
-  image: /images/features.png
+  title: Unsere Modulen
+  subtitle: Nach Ihren Bedürfnissen
+  preamble: Wählen Sie die Module, die Ihren Bedürfnissen entsprechen, und bauen
+    Sie LEVESO so, dass es perfekt zu Ihnen passt
+  image: /images/leveso-website-start-module-funktionen.png
 success_stories:
   title: Success Stories
   subtitle: Success Stories
