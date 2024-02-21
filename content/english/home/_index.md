@@ -7,7 +7,7 @@ banner:
   url_title: Feuerwehrmann Sam
 benefits:
   title: Wie sind wir
-  subtitle: unsere werten
+  subtitle: Unsere Werten
   images:
     - image: /images/enoso_logo_final.svg
     - image: /images/certified.png
