@@ -39,17 +39,15 @@ mission:
   preamble: Wählen Sie die Module, die Ihren Bedürfnissen entsprechen, und bauen
     Sie LEVESO so, dass es perfekt zu Ihnen passt.
   module_titles:
-    - module_title: Module 1
+    - module_title: Grundversion LEVESO
     - module_title: Module 2
     - module_title: Module 3
     - module_title: Module 4
     - module_title: Module 5
     - module_title: Test
   module_descriptions:
-    - module_description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Debitis, ea quo delectus magni modi molestias repudiandae ratione
-        consectetur, placeat doloribus iste, fugiat tempora maxime. Dicta
-        officia ad fugiat quaerat aut?
+    - module_description: Der Grundversion von LEVESO beinhaltet der Lehrgangsplanung,
+        Stammdatenverwaltung und bis zu 10 Workflowkonfigurationen.
     - module_description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Debitis, ea quo delectus magni modi molestias repudiandae ratione
         consectetur, placeat doloribus iste, fugiat tempora maxime. Dicta
