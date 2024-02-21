@@ -6,8 +6,8 @@ banner:
   url: https://www.youtube.com/watch?v=jrkvirglgaQ
   url_title: Image Video
 benefits:
-  title: Wonderful Benefit Title
-  subtitle: Your Benefits
+  title: Wie sind wir
+  subtitle: Super cool!
   images:
     - image: /images/enoso_logo_final.svg
     - image: /images/certified.png
