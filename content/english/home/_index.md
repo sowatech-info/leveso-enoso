@@ -34,11 +34,10 @@ benefits:
         sensiblen daten zu schützen. LEVESO ist stabil, robust und zuverlässig,
         um den reibungslosen Betrieb ihre Prozesse sicherzustellen.
 mission:
-  title: Our Mission
-  subtitle: Our Mission
-  preamble: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea
-    quo delectus magni modi molestias repudiandae ratione consectetur, placeat
-    doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat aut?
+  title: Unseren Modulen
+  subtitle: Nach Ihren Bedürfnissen
+  preamble: Wählen Sie die Module, die Ihren Bedürfnissen entsprechen, und bauen
+    Sie LEVESO so, dass es perfekt zu Ihnen passt.
   module_titles:
     - module_title: Module 1
     - module_title: Module 2
@@ -70,10 +69,9 @@ mission:
     - module_description: Test Modul
 date: 2018-07-12T18:19:33+06:00
 features:
-  title: Unsere Modulen
-  subtitle: Nach Ihren Bedürfnissen
-  preamble: Wählen Sie die Module, die Ihren Bedürfnissen entsprechen, und bauen
-    Sie LEVESO so, dass es perfekt zu Ihnen passt
+  title: Unsere Features
+  subtitle: p
+  preamble: p
   image: /images/leveso-website-start-module-funktionen.png
 success_stories:
   title: Success Stories
