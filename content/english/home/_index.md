@@ -40,30 +40,24 @@ mission:
     Sie LEVESO so, dass es perfekt zu Ihnen passt.
   module_titles:
     - module_title: Grundversion LEVESO
-    - module_title: Module 2
-    - module_title: Module 3
-    - module_title: Module 4
-    - module_title: Module 5
+    - module_title: Ressourcenplanung
+    - module_title: Lehrgangsplanung
+    - module_title: Unterkunfts- und Verpflegungsverwaltung
+    - module_title: Workflows
     - module_title: Test
   module_descriptions:
     - module_description: Der Grundversion von LEVESO beinhaltet der Lehrgangsplanung,
         Stammdatenverwaltung und bis zu 10 Workflowkonfigurationen.
-    - module_description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Debitis, ea quo delectus magni modi molestias repudiandae ratione
-        consectetur, placeat doloribus iste, fugiat tempora maxime. Dicta
-        officia ad fugiat quaerat aut?
-    - module_description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Debitis, ea quo delectus magni modi molestias repudiandae ratione
-        consectetur, placeat doloribus iste, fugiat tempora maxime. Dicta
-        officia ad fugiat quaerat aut?
-    - module_description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Debitis, ea quo delectus magni modi molestias repudiandae ratione
-        consectetur, placeat doloribus iste, fugiat tempora maxime. Dicta
-        officia ad fugiat quaerat aut?
-    - module_description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Debitis, ea quo delectus magni modi molestias repudiandae ratione
-        consectetur, placeat doloribus iste, fugiat tempora maxime. Dicta
-        officia ad fugiat quaerat aut?
+    - module_description: Mit LEVESO lassen sich sämtliche Ressourcen wie Räume,
+        Fahrzeuge oder Dozenten verwalten
+    - module_description: Unsere Lehrgangsverwaltungssoftware bietet eine umfassende
+        Lösung für die effiziente Planung ihrer Lehrgange.
+    - module_description: Mit die Module Unterkunfts- und Verpflegungsverwaltung
+        organisieren Sie nahtlos die Unterbringung und Verpflegung Ihrer
+        Teilnehmer.
+    - module_description: Für wenn sie mehr als 10 automatisierte Benachrichtigungen
+        an Ihren Teilnehmer, Dozenten oder Aufgabenträger oder Benutzergruppen
+        benötigen.
     - module_description: Test Modul
 date: 2018-07-12T18:19:33+06:00
 features:
