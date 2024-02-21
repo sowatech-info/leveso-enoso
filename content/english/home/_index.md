@@ -2,9 +2,9 @@
 bg_image: images/background/page-title.jpg
 banner:
   image: /images/background/promo-video.jpg
-  title: We are always committed
-  url: https://www.youtube.com/watch?v=jrkvirglgaQ
-  url_title: Image Video
+  title: Lehrgangsverwaltungssoftware
+  url: a
+  url_title: a
 benefits:
   title: Wie sind wir
   subtitle: Super cool!
