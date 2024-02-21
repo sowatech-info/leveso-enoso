@@ -13,14 +13,14 @@ benefits:
     - image: /images/certified.png
     - image: /images/calender.png
   titles:
-    - title: Verschlüsselt
+    - title: Mission
     - title: ISO zertifizierte Server
     - title: Tägliche Datensicherung
   descriptions:
-    - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
-        delectus magni modi molestias repudiandae ratione consectetur, placeat
-        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
-        aut?
+    - text: Wir, das Team der Leveso, möchten lerhrgangsverwaltungsoftware entwerfen,
+        entwickeln und betreuen, damit unseren Kunden sichere, leistungsfähige,
+        relevante und kosteneffektive digitale Gesamtlösungen zur Verfügung
+        stehen, die ihren individuellen Bedürfnissen optimal entsprechen.
     - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
         delectus magni modi molestias repudiandae ratione consectetur, placeat
         doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
