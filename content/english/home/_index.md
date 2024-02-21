@@ -7,28 +7,32 @@ banner:
   url_title: Feuerwehrmann Sam
 benefits:
   title: Wie sind wir
-  subtitle: Super cool!
+  subtitle: unsere werten
   images:
     - image: /images/enoso_logo_final.svg
     - image: /images/certified.png
     - image: /images/calender.png
   titles:
-    - title: Mission
-    - title: ISO zertifizierte Server
-    - title: Tägliche Datensicherung
+    - title: Fachkompetenz
+    - title: Flexibilität
+    - title: Sicherheit
   descriptions:
-    - text: Wir, das Team der Leveso, möchten lerhrgangsverwaltungsoftware entwerfen,
-        entwickeln und betreuen, damit unseren Kunden sichere, leistungsfähige,
-        relevante und kosteneffektive digitale Gesamtlösungen zur Verfügung
-        stehen, die ihren individuellen Bedürfnissen optimal entsprechen.
-    - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
-        delectus magni modi molestias repudiandae ratione consectetur, placeat
-        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
-        aut?
-    - text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea quo
-        delectus magni modi molestias repudiandae ratione consectetur, placeat
-        doloribus iste, fugiat tempora maxime. Dicta officia ad fugiat quaerat
-        aut?
+    - text: Wir von LEVESO zeichnen uns durch unsere Fachkompetenz aus. Wit haben ein
+        Team von Erfahrener Entwickler und Experten die sich auf die
+        spezifischen Anforderungen und Regularien im öffentlicher Sektor
+        Spezialisiert haben. Durch unsere Fachwissen sind wir in die Lage,
+        maßgeschneiderte Lösungen zu entwickeln, die Ihre Bedürfnissen
+        entsprechen.
+    - text: Wir sind flexibel und agil in der Anpassung ihrer Softwarelosungen, wir
+        können schnell auf die sich ändernden Anforderungen und Bedürfnisse
+        reagieren und maßgeschneiderte Lösungen bereitstellen. Durch unsere
+        Flexibilität können wir auch individuelle Anpassungen vornehmen und
+        spezifische einzelner Anforderungen berücksichtigen.
+    - text: Wir legen großen Wert auf Zuverlässigkeit, Nachvollziehbarkeit und
+        Sicherheit in unserer Arbeit. Wir gewährleisten die Einhaltung aller
+        relevanten Sicherheitsstandards und Datenschutzbestimmungen um ihre
+        sensiblen daten zu schützen. LEVESO ist stabil, robust und zuverlässig,
+        um den reibungslosen Betrieb ihre Prozesse sicherzustellen.
 mission:
   title: Our Mission
   subtitle: Our Mission
