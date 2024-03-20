@@ -61,7 +61,7 @@ mission:
     - module_description: Test Modul
 date: 2018-07-12T18:19:33+06:00
 features:
-  title: Unsere Features
+  title: USP
   subtitle: p
   preamble: p
   image: /images/leveso-website-start-module-funktionen.png
