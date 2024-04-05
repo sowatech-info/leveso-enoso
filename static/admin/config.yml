@@ -160,22 +160,22 @@ collections:
             widget: object
             collapsed: true
             fields:
-              - label: Modules Title
+              - label: M Title
                 name: title
                 widget: string
-              - label: Modules Subtitle
+              - label: M Subtitle
                 name: subtitle
                 widget: string
-              - label: Modules Titles
-                name: module_titles
+              - label: M Titles
+                name: m_titles
                 widget: list
                 fields:
-                  - { label: Module Title, name: title, widget: string }
-              - label: Modules Descriptions
-                name: module_descriptions
+                  - { label: M Title, name: title, widget: string }
+              - label: M Descriptions
+                name: m_descriptions
                 widget: list
                 fields:
-                  - { label: Module Description, name: text, widget: markdown }
+                  - { label: M Description, name: text, widget: markdown }
         file: content/english/modules/_index.md
         label: Module
         name: modules
