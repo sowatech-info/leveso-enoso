@@ -5,4 +5,9 @@ banner:
   title: Lehrgangsverwaltungssoftware
   url: https://www.youtube.com/watch?v=i9PWbtqReX8
   url_title: Feuerwehrmann Sam
+usp:
+  title:
+  subtitle:
+  usp_titles:
+  usp_descriptions:
 ---
