@@ -149,6 +149,34 @@ collections:
         file: content/english/home/_index.md
         label: Homepage
         name: homepage
+  - files:
+      - editor:
+          preview: true
+        fields:
+          - label: Modules
+            name: modules
+            widget: object
+            collapsed: true
+            fields:
+              - label: Modules Title
+                name: title
+                widget: string
+              - label: Modules Subtitle
+                name: subtitle
+                widget: string
+              - label: Modules Titles
+                name: module_titles
+                widget: list
+                fields:
+                  - { label: Module Title, name: title, widget: string }
+              - label: Modules Descriptions
+                name: module_descriptions
+                widget: list
+                fields:
+                  - { label: Module Description, name: text, widget: markdown }
+        file: content/english/modules/_index.md
+        label: Module
+        name: modules
     label: Start
     name: homepage
   - files:

@@ -1,21 +1,116 @@
 {{ define "main" }}
-
 {{ $data := index .Site.Data .Site.Language.Lang }}
-
 {{ partial "promoVideo.html" . }}
+<h1>Test</h1>
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h5 class="section-title-sm">{{ .Params.benefits.subtitle }}</h5>
+                <h2 class="section-title section-title-border-half">{{ .Params.benefits.title }}</h2>
+            </div>
+            {{ range .Params.benefits.images }}
+            <div class="col-sm-4 text-center pb-4">
+                <img class="benefits-img" src="{{ .image }}">
+            </div>
+            {{ end }}
+            {{ range .Params.benefits.titles }}
+            <div class="col-sm-4 text-center pb-3">
+                <h4> {{ .title }} </h4>
+            </div>
+            {{ end }}
+            {{ range .Params.benefits.descriptions }}
+            <div class="col-sm-4 text-center">
+                <p> {{ .text }} </p>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
 
-{{ partial "benefits.html" . }}
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h5 class="section-title-sm">{{ .Params.features.subtitle }}</h5>
+                <h2 class="section-title section-title-border-half">{{ .Params.features.title }}</h2>
+                <p>{{ .Params.features.preamble }}</p>
+            </div>
+            <img src="{{ .Params.features.image }}" class="w-100">
+        </div>
+    </div>
+</section>
 
-{{ partial "features.html" . }}
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h5 class="section-title-sm">{{ .Params.mission.subtitle }}</h5>
+                <h2 class="section-title section-title-border-half">{{ .Params.mission.title }}</h2>
+            </div>
+            <p>{{ .Params.mission.preamble }}</p>
+            {{ range $index, $module := .Params.mission.module_titles }}
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card-header bg-gray border p-0">
+                    <a class="card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse"
+                        href="#collapse{{ $index }}">
+                        <i class="ti-plus text-primary mr-2"></i> {{ $module.module_title }}
+                    </a>
+                </div>
+                <div id="collapse{{ $index }}" class="collapse">
+                    <div class="card-body font-secondary text-color pl-0 pb-0">
+                        {{ index (index $.Params.mission.module_descriptions $index) "module_description" }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
 
-{{ if $data.about.mission.enable }}
-{{ partial "mission.html" . }}
-{{ end }}
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h5 class="section-title-sm">{{ .Params.success_stories.subtitle }}</h5>
+                <h2 class="section-title section-title-border-half">{{ .Params.success_stories.title }}</h2>
+            </div>
+            {{ range .Params.success_stories.images }}
+            <div class="col-md-6">
+                <a href="#"><img src="{{ .image }}" class=" mx-auto d-block"></a>
+            </div>
+            {{ end }}
+        </div>
+        <a href="#"><div class="btn button btn-secondary mt-5">weitere Referenzen</div></a>
+    </div>
+</section>
 
-{{ partial "success.html" . }}
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h5 class="section-title-sm">{{ .Params.project.subtitle }}</h5>
+                <h2 class="section-title section-title-border-half">{{ .Params.project.title }}</h2>
+                <p>{{ .Params.project.preamble }}</p>
+            </div>
+            <a href="#"><img src="{{ .Params.project.image }}" class="w-100"></a>
+        </div>
+    </div>
+</section>
 
-{{ partial "project.html" . }}
-
-{{ partial "philosophy.html" . }}
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 order-2 order-lg-1">
+                <h5 class="section-title-sm">{{ .Params.philosophy.subtitle }}</h5>
+                <h2 class="section-title section-title-border-half">{{ .Params.philosophy.title }}</h2>
+                <p>{{ .Params.philosophy.description }}</p>
+            </div>
+            <div class="col-lg-5 align-self-center order-1 order-lg-2 mb-md-50">
+                <a href="#"><img class="img-fluid w-100" src="{{ .Params.philosophy.image }}"></a>
+            </div>
+        </div>
+    </div>
+</section>
 
 {{ end }}

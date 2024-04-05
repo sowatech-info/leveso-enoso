@@ -54,19 +54,24 @@ disableLanguages = [] # desable language from here
   weight = 1
 
   [[menu.main]]
-  name = "Funktionen"
-  URL = "service"
+  name = "Module"
+  URL = "modules"
   weight = 2
+
+  [[menu.main]]
+  name = "USP"
+  URL = "usp"
+  weight = 3
 
   [[menu.main]]
   name = "Über uns"
   URL = "about"
-  weight = 3
+  weight = 4
 
   [[menu.main]]
   name = "Kontakt"
   URL = "contact"
-  weight = 4
+  weight = 5
 
   # [[menu.main]]
   # weight = 8
