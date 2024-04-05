@@ -149,6 +149,8 @@ collections:
         file: content/english/home/_index.md
         label: Homepage
         name: homepage
+    label: Start
+    name: homepage
   - files:
       - editor:
           preview: true
@@ -177,8 +179,8 @@ collections:
         file: content/english/modules/_index.md
         label: Module
         name: modules
-    label: Start
-    name: homepage
+    label: Module
+    name: modules
   - files:
       - editor:
           preview: true
