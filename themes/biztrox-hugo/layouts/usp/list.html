@@ -9,10 +9,10 @@
                 <h5 class="section-title-sm">{{ .Params.usp.subtitle }}</h5>
                 <h2 class="section-title section-title-border-half">{{ .Params.usp.title }}</h2>
             </div>
-            {{ range $index, $module := .Params.modules.usp_titles }}
+            {{ range $index, $usp := .Params.usp.usp_titles }}
                 <div class="col-sm-12 text-center pb-3">
-                    <h4>{{ $module.title }}</h4>
-                    <p>{{ index $.Params.modules.usp_descriptions $index }}</p>
+                    <h4>{{ $usp.title }}</h4>
+                    <p>{{ index $.Params.usp.usp_descriptions $index "text" }}</p>
                 </div>
             {{ end }}
         </div>
