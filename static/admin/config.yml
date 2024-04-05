@@ -185,6 +185,36 @@ collections:
       - editor:
           preview: true
         fields:
+          - label: USP
+            name: usp
+            widget: object
+            collapsed: true
+            fields:
+              - label: USP Title
+                name: title
+                widget: string
+              - label: USP Subtitle
+                name: subtitle
+                widget: string
+              - label: USP Titles
+                name: usp_titles
+                widget: list
+                fields:
+                  - { label: USP Title, name: title, widget: string }
+              - label: USP Descriptions
+                name: usp_descriptions
+                widget: list
+                fields:
+                  - { label: USP Description, name: text, widget: markdown }
+        file: content/english/usp/_index.md
+        label: USP
+        name: usp
+    label: USP
+    name: usp
+  - files:
+      - editor:
+          preview: true
+        fields:
           - label: Titel
             name: title
             widget: string
