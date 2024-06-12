@@ -753,6 +753,12 @@ code{
   background: #252d39;
 }
 
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 @media (max-width: 575px) {
   .top-header ul {
     text-align: center;
