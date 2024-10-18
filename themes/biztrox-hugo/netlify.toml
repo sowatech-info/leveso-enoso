@@ -1,3 +1,8 @@
+[[redirects]]
+  from = "/"
+  to = "/home/"
+  status = 301
+
 [build]
   publish = "exampleSite/public"
   command = "cd exampleSite && hugo --gc --themesDir ../.."
