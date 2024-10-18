@@ -7,259 +7,227 @@ collections:
       - editor:
           preview: true
         fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: Date
-            name: date
-            widget: dateTime
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
-          - label: Row1_Col1_Image
-            name: r1_c1_image
-            widget: image
-        file: content/english/references/_index.md
-        label: Referenzen
-        name: references
+          - label: Banner
+            name: banner
+            widget: object
+            collapsed: true
+            fields:
+              - label: Banner Image
+                name: image
+                widget: image
+              - label: Banner Title
+                name: title
+                widget: markdown
+              - label: Video URL
+                name: url
+                widget: string
+              - label: URL Title
+                name: url_title
+                widget: string
+          - label: Benefits
+            name: benefits
+            widget: object
+            collapsed: true
+            fields:
+              - label: Benefit Title
+                name: title
+                widget: string
+              - label: Benefit Subtitle
+                name: subtitle
+                widget: string
+              - label: Benefit Images
+                name: images
+                widget: list
+                fields:
+                  - { label: Image, name: image, widget: image }
+              - label: Benefit Titles
+                name: titles
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+              - label: Benefit Descriptions
+                name: descriptions
+                widget: list
+                fields:
+                  - { label: Description, name: text, widget: string }
+          - label: Features
+            name: features
+            widget: object
+            collapsed: true
+            fields:
+              - label: Feature Title
+                name: title
+                widget: string
+              - label: Feature Subtitle
+                name: subtitle
+                widget: string
+              - label: Feature Preamble
+                name: preamble
+                widget: string
+              - label: Feature Image
+                name: image
+                widget: image
+          - label: Mission
+            name: mission
+            widget: object
+            collapsed: true
+            fields:
+              - label: Mission Title
+                name: title
+                widget: string
+              - label: Mission Subtitle
+                name: subtitle
+                widget: string
+              - label: Mission Preamble
+                name: preamble
+                widget: markdown
+              - label: Modules Titles
+                name: module_titles
+                widget: list
+                fields:
+                  - { label: Module Title, name: module_title, widget: string }
+              - label: Modules Descriptions
+                name: module_descriptions
+                widget: list
+                fields:
+                  - { label: Module Description, name: module_description, widget: markdown }
+          - label: Success Stories
+            name: success_stories
+            widget: object
+            collapsed: true
+            fields:
+              - label: Success Stories Title
+                name: title
+                widget: string
+              - label: Success Stories Subtitle
+                name: subtitle
+                widget: string
+              - label: Images
+                name: images
+                widget: list
+                fields:
+                  - { label: Image, name: image, widget: image }
+              - label: Logos
+                name: logos
+                widget: list
+                fields:
+                  - { label: Logo, name: logo, widget: image }
+          - label: Project
+            name: project
+            widget: object
+            collapsed: true
+            fields:
+              - label: Project Title
+                name: title
+                widget: string
+              - label: Project Subtitle
+                name: subtitle
+                widget: string
+              - label: Project Preamble
+                name: preamble
+                widget: markdown
+              - label: Project Image
+                name: image
+                widget: image
+          - label: Philosophy
+            name: philosophy
+            widget: object
+            collapsed: true
+            fields:
+              - label: Philosophy Title
+                name: title
+                widget: string
+              - label: Philosophy Subtitle
+                name: subtitle
+                widget: string
+              - label: Philosophy Description
+                name: description
+                widget: markdown
+              - label: Philosophy Image
+                name: image
+                widget: image
+        file: content/english/home/_index.md
+        label: Homepage
+        name: homepage
+    label: Start
+    name: homepage
+  - files:
+      - editor:
+          preview: true
+        fields:
+          - label: Modules
+            name: modules
+            widget: object
+            collapsed: true
+            fields:
+              - label: Modules Title
+                name: title
+                widget: string
+              - label: Modules Subtitle
+                name: subtitle
+                widget: string
+              - label: Modules Titles
+                name: module_titles
+                widget: list
+                fields:
+                  - { label: Module Title, name: title, widget: string }
+              - label: Modules Descriptions
+                name: module_descriptions
+                widget: list
+                fields:
+                  - { label: Module Description, name: text, widget: markdown }
+        file: content/english/modules/_index.md
+        label: Module
+        name: modules
+    label: Module
+    name: modules
+  - files:
+      - editor:
+          preview: true
+        fields:
+          - label: USP
+            name: usp
+            widget: object
+            collapsed: true
+            fields:
+              - label: USP Title
+                name: title
+                widget: string
+              - label: USP Subtitle
+                name: subtitle
+                widget: string
+              - label: USP Titles
+                name: usp_titles
+                widget: list
+                fields:
+                  - { label: USP Title, name: title, widget: string }
+              - label: USP Descriptions
+                name: usp_descriptions
+                widget: list
+                fields:
+                  - { label: USP Description, name: text, widget: markdown }
+        file: content/english/usp/_index.md
+        label: USP
+        name: usp
+    label: USP
+    name: usp
+  - files:
       - editor:
           preview: true
         fields:
           - label: Titel
             name: title
             widget: string
-          - label: Date
-            name: date
-            widget: dateTime
           - label: BG_Image
             name: bg_image
             widget: image
-          - label: Description
-            name: description
-            widget: string
-        file: content/english/contact/_index.md
-        label: Kontakt
-        name: contact
-      - editor:
-          preview: true
-        fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: Date
-            name: date
-            widget: dateTime
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
-        file: content/english/blog/_index.md
-        label: Blog
-        name: blog
-      - editor:
-          preview: true
-        fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: Date
-            name: date
-            widget: dateTime
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
-          - label: Author
-            name: author
-            widget: string
-          - label: Image
-            name: image
-            widget: image
-          - label: Category
-            name: category
-            widget: list
-          - label: Tags
-            name: tags
-            widget: list
-          - label: Post
-            name: post
-            widget: string
-        file: content/english/blog/Business-Magnate.md
-        label: Business Magnate
-        name: business-magnate
-      - editor:
-          preview: true
-        fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: Date
-            name: date
-            widget: dateTime
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
-          - label: Author
-            name: author
-            widget: string
-          - label: Image
-            name: image
-            widget: image
-          - label: Category
-            name: category
-            widget: list
-          - label: Tags
-            name: tags
-            widget: list
-          - label: Post
-            name: post
-            widget: string
-        file: content/english/blog/Cool-the-Audits.md
-        label: Cool the Audits
-        name: cool-the-audits
-      - editor:
-          preview: true
-        fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: Date
-            name: date
-            widget: dateTime
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
-          - label: Author
-            name: author
-            widget: string
-          - label: Image
-            name: image
-            widget: image
-          - label: Category
-            name: category
-            widget: list
-          - label: Tags
-            name: tags
-            widget: list
-          - label: Post
-            name: post
-            widget: string
-        file: content/english/blog/Economics-Meter.md
-        label: Economics Meter
-        name: economics-meter
-      - editor:
-          preview: true
-        fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: Date
-            name: date
-            widget: dateTime
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
-          - label: Author
-            name: author
-            widget: string
-          - label: Image
-            name: image
-            widget: image
-          - label: Category
-            name: category
-            widget: list
-          - label: Tags
-            name: tags
-            widget: list
-          - label: Post
-            name: post
-            widget: string
-        file: content/english/blog/Finance-My-Business.md
-        label: Finance my Business
-        name: finance-my-business
-      - editor:
-          preview: true
-        fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: Date
-            name: date
-            widget: dateTime
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
-          - label: Author
-            name: author
-            widget: string
-          - label: Image
-            name: image
-            widget: image
-          - label: Category
-            name: category
-            widget: list
-          - label: Tags
-            name: tags
-            widget: list
-          - label: Post
-            name: post
-            widget: string
-        file: content/english/blog/Money-and-money.md
-        label: Money and Money
-        name: money-and-money
-      - editor:
-          preview: true
-        fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: Date
-            name: date
-            widget: dateTime
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
-          - label: Author
-            name: author
-            widget: string
-          - label: Image
-            name: image
-            widget: image
-          - label: Category
-            name: category
-            widget: list
-          - label: Tags
-            name: tags
-            widget: list
-          - label: Post
-            name: post
-            widget: string
-        file: content/english/blog/new-hugo-post.md
-        label: New Hugo Post
-        name: new-hugo-post
-    label: Seitenübersicht
-    name: pages
+          - label: Seitentext
+            name: body
+            widget: markdown
+        file: content/english/imprint/_index.md
+        label: Imprint
+        name: imprint
+    label: Impressum
+    name: imprint
 media_folder: static/images
-public_folder: static/images
+public_folder: /images
