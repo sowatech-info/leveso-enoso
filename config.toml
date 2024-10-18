@@ -1,5 +1,5 @@
 ######################### default configuration ###############################
-baseURL = "https://leveso.enoso.de/"
+baseURL = "https://leveso.enoso.de/home/"
 title = "Leveso"
 theme = "biztrox-hugo"
 # post pagination

@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Leveso</title>
-    <link>http://localhost:1313/fr/tags/</link>
+    <link>http://localhost:1313/home/fr/tags/</link>
     <description>Recent content in Tags on Leveso</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
     <lastBuildDate>Mon, 24 Sep 2018 11:11:24 +0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/fr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/home/fr/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Consultancy</title>
-      <link>http://localhost:1313/fr/tags/consultancy/</link>
+      <link>http://localhost:1313/home/fr/tags/consultancy/</link>
       <pubDate>Mon, 24 Sep 2018 11:11:24 +0600</pubDate>
-      <guid>http://localhost:1313/fr/tags/consultancy/</guid>
+      <guid>http://localhost:1313/home/fr/tags/consultancy/</guid>
       <description></description>
     </item>
     <item>
       <title>Finance</title>
-      <link>http://localhost:1313/fr/tags/finance/</link>
+      <link>http://localhost:1313/home/fr/tags/finance/</link>
       <pubDate>Mon, 24 Sep 2018 11:11:24 +0600</pubDate>
-      <guid>http://localhost:1313/fr/tags/finance/</guid>
+      <guid>http://localhost:1313/home/fr/tags/finance/</guid>
       <description></description>
     </item>
     <item>
       <title>Marketing</title>
-      <link>http://localhost:1313/fr/tags/marketing/</link>
+      <link>http://localhost:1313/home/fr/tags/marketing/</link>
       <pubDate>Mon, 24 Sep 2018 11:11:24 +0600</pubDate>
-      <guid>http://localhost:1313/fr/tags/marketing/</guid>
+      <guid>http://localhost:1313/home/fr/tags/marketing/</guid>
       <description></description>
     </item>
     <item>
       <title>Business</title>
-      <link>http://localhost:1313/fr/tags/business/</link>
+      <link>http://localhost:1313/home/fr/tags/business/</link>
       <pubDate>Mon, 24 Sep 2018 11:10:46 +0600</pubDate>
-      <guid>http://localhost:1313/fr/tags/business/</guid>
+      <guid>http://localhost:1313/home/fr/tags/business/</guid>
       <description></description>
     </item>
     <item>
       <title>Market Analysis</title>
-      <link>http://localhost:1313/fr/tags/market-analysis/</link>
+      <link>http://localhost:1313/home/fr/tags/market-analysis/</link>
       <pubDate>Mon, 24 Sep 2018 11:10:07 +0600</pubDate>
-      <guid>http://localhost:1313/fr/tags/market-analysis/</guid>
+      <guid>http://localhost:1313/home/fr/tags/market-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Revenue</title>
-      <link>http://localhost:1313/fr/tags/revenue/</link>
+      <link>http://localhost:1313/home/fr/tags/revenue/</link>
       <pubDate>Mon, 24 Sep 2018 11:10:07 +0600</pubDate>
-      <guid>http://localhost:1313/fr/tags/revenue/</guid>
+      <guid>http://localhost:1313/home/fr/tags/revenue/</guid>
       <description></description>
     </item>
     <item>
       <title>Advice</title>
-      <link>http://localhost:1313/fr/tags/advice/</link>
+      <link>http://localhost:1313/home/fr/tags/advice/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      <guid>http://localhost:1313/fr/tags/advice/</guid>
+      <guid>http://localhost:1313/home/fr/tags/advice/</guid>
       <description></description>
     </item>
     <item>
       <title>Fitness</title>
-      <link>http://localhost:1313/fr/tags/fitness/</link>
+      <link>http://localhost:1313/home/fr/tags/fitness/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      <guid>http://localhost:1313/fr/tags/fitness/</guid>
+      <guid>http://localhost:1313/home/fr/tags/fitness/</guid>
       <description></description>
     </item>
   </channel>
