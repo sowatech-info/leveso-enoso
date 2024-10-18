@@ -10,18 +10,18 @@ collections:
           - label: Titel
             name: title
             widget: string
-          - label: Date
-            name: date
-            widget: dateTime
           - label: BG_Image
             name: bg_image
             widget: image
           - label: Description
             name: description
             widget: string
-          - label: Row1_Col1_Image
-            name: r1_c1_image
-            widget: image
+          - label: Images
+            name: images
+            widget: list
+            fields:
+              - { label: URL, name: path, widget: image}
+              - { label: Website-URL, name: url, widget: string}
         file: content/english/references/_index.md
         label: Referenzen
         name: references
@@ -31,235 +31,19 @@ collections:
           - label: Titel
             name: title
             widget: string
-          - label: Date
-            name: date
-            widget: dateTime
           - label: BG_Image
             name: bg_image
             widget: image
           - label: Description
             name: description
             widget: string
-        file: content/english/contact/_index.md
-        label: Kontakt
-        name: contact
-      - editor:
-          preview: true
-        fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: Date
-            name: date
-            widget: dateTime
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
-        file: content/english/blog/_index.md
-        label: Blog
-        name: blog
-      - editor:
-          preview: true
-        fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: Date
-            name: date
-            widget: dateTime
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
-          - label: Author
-            name: author
-            widget: string
-          - label: Image
-            name: image
-            widget: image
-          - label: Category
-            name: category
-            widget: list
-          - label: Tags
-            name: tags
-            widget: list
-          - label: Post
-            name: post
-            widget: string
-        file: content/english/blog/Business-Magnate.md
-        label: Business Magnate
-        name: business-magnate
-      - editor:
-          preview: true
-        fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: Date
-            name: date
-            widget: dateTime
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
-          - label: Author
-            name: author
-            widget: string
-          - label: Image
-            name: image
-            widget: image
-          - label: Category
-            name: category
-            widget: list
-          - label: Tags
-            name: tags
-            widget: list
-          - label: Post
-            name: post
-            widget: string
-        file: content/english/blog/Cool-the-Audits.md
-        label: Cool the Audits
-        name: cool-the-audits
-      - editor:
-          preview: true
-        fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: Date
-            name: date
-            widget: dateTime
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
-          - label: Author
-            name: author
-            widget: string
-          - label: Image
-            name: image
-            widget: image
-          - label: Category
-            name: category
-            widget: list
-          - label: Tags
-            name: tags
-            widget: list
-          - label: Post
-            name: post
-            widget: string
-        file: content/english/blog/Economics-Meter.md
-        label: Economics Meter
-        name: economics-meter
-      - editor:
-          preview: true
-        fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: Date
-            name: date
-            widget: dateTime
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
-          - label: Author
-            name: author
-            widget: string
-          - label: Image
-            name: image
-            widget: image
-          - label: Category
-            name: category
-            widget: list
-          - label: Tags
-            name: tags
-            widget: list
-          - label: Post
-            name: post
-            widget: string
-        file: content/english/blog/Finance-My-Business.md
-        label: Finance my Business
-        name: finance-my-business
-      - editor:
-          preview: true
-        fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: Date
-            name: date
-            widget: dateTime
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
-          - label: Author
-            name: author
-            widget: string
-          - label: Image
-            name: image
-            widget: image
-          - label: Category
-            name: category
-            widget: list
-          - label: Tags
-            name: tags
-            widget: list
-          - label: Post
-            name: post
-            widget: string
-        file: content/english/blog/Money-and-money.md
-        label: Money and Money
-        name: money-and-money
-      - editor:
-          preview: true
-        fields:
-          - label: Titel
-            name: title
-            widget: string
-          - label: Date
-            name: date
-            widget: dateTime
-          - label: BG_Image
-            name: bg_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
-          - label: Author
-            name: author
-            widget: string
-          - label: Image
-            name: image
-            widget: image
-          - label: Category
-            name: category
-            widget: list
-          - label: Tags
-            name: tags
-            widget: list
-          - label: Post
-            name: post
-            widget: string
-        file: content/english/blog/new-hugo-post.md
-        label: New Hugo Post
-        name: new-hugo-post
+          - label: Seitentext
+            name: body
+            widget: markdown          
+        file: content/english/imprint/_index.md
+        label: Impressum
+        name: imprint
     label: Seitenübersicht
     name: pages
 media_folder: static/images
-public_folder: static/images
+public_folder: /images
